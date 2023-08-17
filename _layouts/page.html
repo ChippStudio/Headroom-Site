@@ -6,15 +6,13 @@
 <html lang="en-us">
 
 {% include head.html %}
+{% include navbar.html %}
 
-<body class="subPageBody">
-    <div class="headerBackground subPageHeaderBackground">
-        <div class="container subPageContainer">
-        {% include navbar.html %}
-            <article class="page markdown-body">
-                {{ content }}
-            </article>
-        </div>
+<body>
+    <div class="container items-center mx-auto md:max-w-4xl xs:max-w-2xl py-32 px-6">
+        <article class="page markdown-body">
+            {{ content }}
+        </article>
     </div>
 </body>
 
