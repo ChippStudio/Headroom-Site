@@ -9,7 +9,7 @@ appstore_link:
 playstore_link:
 presskit_download_link:
 
-app_icon: assets/icon.png
+app_icon: images/icon.png
 app_name: 'Headroom: Chapters'
 app_price: Free • Beta
 app_description:
@@ -22,15 +22,15 @@ header_subtitle: Create chapters for your podcast episode to help listeners find
 
 # Gallery
 gallery:
-  - image: /assets/screenshot0.png
+  - image: /images/screenshot0.png
     alt: Headroom main screenshot
     isActive: false
 
-  - image: /assets/screenshot1.png
+  - image: /images/screenshot1.png
     alt: Headroom main screenshot
     isActive: true
 
-  - image: /assets/screenshot2.png
+  - image: /images/screenshot2.png
     alt: Headroom main screenshot
     isActive: false
 
