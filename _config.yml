@@ -37,8 +37,10 @@ gallery:
 # Features info
 feature_chapter_title: Chapter View
 feature_chapter_phrase: All chapter settings are consolidated in a single view. You can edit the title, insert a link, adjust the time frame, and, naturally, upload an image for the chapter
+feature_chapter_image: /images/chapter_view.png
 feature_track_title: Track View
-feature_track_phrase: Fully integrated with macOS. With audio playback, you can ensure that the chapter has the correct time frame.
+feature_track_phrase: Fully integrated with macOS. With audio playback, you can ensure that the chapter has the correct time frame
+feature_track_image: /images/track_view.png
 
 features:     
 
