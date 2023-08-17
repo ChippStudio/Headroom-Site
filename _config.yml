@@ -2,17 +2,17 @@
 page_title: 'Headroom: Chapters'
 
 # App Info
-ios_app_id: 1635180628
+ios_app_id:
 ios_app_country: us
 
 appstore_link:
 playstore_link:
 presskit_download_link:
 
-app_icon: assets/appicon.png
-app_name: Words Stack
-app_price: Free • Offers In-App Purchases 
-app_description: Build your own vocabulary <br> With three easy steps <br> Discover, Add and Practice
+app_icon: assets/icon.png
+app_name: 'Headroom: Chapters'
+app_price: Free • Beta
+app_description:
 
 enable_smart_app_banner: true
 
