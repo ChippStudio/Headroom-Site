@@ -20,6 +20,20 @@ enable_smart_app_banner: true
 header_title: Guide your listeners to the right spot in your podcast
 header_subtitle: Create chapters for your podcast episode to help listeners find the right content in just one click. Headroom offers a user-friendly visual tool for chapter creation, ensuring your audience can easily access the content they're interested in
 
+# Gallery
+gallery:
+  - image: /assets/screenshot0.png
+    alt: Headroom main screenshot
+    isActive: false
+
+  - image: /assets/screenshot1.png
+    alt: Headroom main screenshot
+    isActive: true
+
+  - image: /assets/screenshot2.png
+    alt: Headroom main screenshot
+    isActive: false
+
 # Features info
 feature_chapter_title: Chapter View
 feature_chapter_phrase: All chapter settings are consolidated in a single view. You can edit the title, insert a link, adjust the time frame, and, naturally, upload an image for the chapter
