@@ -1,8 +1,8 @@
-<div class="container items-center mx-auto space-y-24 xs:pb-24 md:pb-52 xs:pt-12 md:pt-40">
-    <div class="xs:space-y-16 md:space-y-36">
+<div class="space-y-24 xs:pb-24 md:pb-52 xs:pt-12 md:pt-40 xs:px-0 md:px-4">
+    <div class="container items-center mx-auto xs:space-y-16 md:space-y-36">
         <div class="lg:flex items-center">
-            <img class="lg:max-w-2xl md:max-w-md xs:max-w-sm" src="{{ site.feature_chapter_image | relative_url }}"
-                alt="Headroom: Chapters - screenshot">
+            <img class="xs:max-w-xs md:max-w-md lg:max-w-2xl" src="{{ site.feature_chapter_image | relative_url }}"
+                alt="Headroom: Chapters - chapter view">
             <div class="space-y-3 pl-36">
                 <div class="text-4xl font-semibold text-headroom">{{ site.feature_chapter_title }}</div>
                 <div class="text-xl text-headroom opacity-70">{{ site.feature_chapter_phrase }}</div>
@@ -13,12 +13,12 @@
                 <div class="text-4xl font-semibold text-headroom">{{ site.feature_track_title }}</div>
                 <div class="text-xl text-headroom opacity-70">{{ site.feature_track_phrase }}</div>
             </div>
-            <img class="lg:max-w-2xl md:max-w-md xs:max-w-sm" src="{{ site.feature_track_image | relative_url }}"
-                alt="Headroom: Chapters - screenshot">
+            <img class="xs:max-w-xs md:max-w-md lg:max-w-2xl" src="{{ site.feature_track_image | relative_url }}"
+                alt="Headroom: Chapters - track view">
         </div>
     </div>
 
-    <div class="space-y-14">
+    <div class="container items-center mx-auto space-y-14">
         <div class="text-3xl font-bold">More Features</div>
         <div class="grid xl:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 xs:gap-y-12 md:gap-y-24 gap-x-24">
             {% for feature in site.features %}

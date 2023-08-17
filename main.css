@@ -4687,6 +4687,10 @@ input[type="range"]:active::-webkit-slider-thumb {
     max-width: 24rem;
   }
 
+  .xs\:max-w-xs {
+    max-width: 20rem;
+  }
+
   .xs\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -4710,6 +4714,11 @@ input[type="range"]:active::-webkit-slider-thumb {
   .xs\:px-2 {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+  }
+
+  .xs\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .xs\:pb-14 {
@@ -4797,6 +4806,16 @@ input[type="range"]:active::-webkit-slider-thumb {
     --tw-space-y-reverse: 0;
     margin-top: calc(9rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(9rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .md\:pb-32 {
