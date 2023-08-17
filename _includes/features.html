@@ -1,37 +1,42 @@
-<div class="container items-center mx-auto space-y-36 pt-40 pb-20">
-    <div class="md:flex items-center">
-        <img class="max-w-4xl, lg:max-w-3xl, md:max-w-2xl" src="/assets/chapter_view.png" alt="Headroom: Chapters - screenshot">
-        <div class="space-y-3 pl-36">
-            <div class="text-4xl font-semibold">{{ site.feature_chapter_title }}</div>
-            <div class="text-2xl">{{ site.feature_chapter_phrase }}</div>
+<div class="space-y-24 pb-20">
+    <div class="container items-center mx-auto space-y-36 pt-40 pb-20">
+        <div class="md:flex items-center">
+            <img class="max-w-4xl, lg:max-w-3xl, md:max-w-2xl" src="/assets/chapter_view.png"
+                alt="Headroom: Chapters - screenshot">
+            <div class="space-y-3 pl-36">
+                <div class="text-4xl font-semibold">{{ site.feature_chapter_title }}</div>
+                <div class="text-2xl">{{ site.feature_chapter_phrase }}</div>
+            </div>
+        </div>
+        <div class="flex items-center">
+            <div class="space-y-3 pr-36">
+                <div class="text-4xl font-semibold">{{ site.feature_track_title }}</div>
+                <div class="text-2xl">{{ site.feature_track_phrase }}</div>
+            </div>
+            <img class="max-w-4xl, lg:max-w-3xl, md:max-w-2xl" src="/assets/track_view.png"
+                alt="Headroom: Chapters - screenshot">
         </div>
     </div>
-    <div class="flex items-center">
-        <div class="space-y-3 pr-36">
-            <div class="text-4xl font-semibold">{{ site.feature_track_title }}</div>
-            <div class="text-2xl">{{ site.feature_track_phrase }}</div>
-        </div>
-        <img class="max-w-4xl, lg:max-w-3xl, md:max-w-2xl" src="/assets/track_view.png" alt="Headroom: Chapters - screenshot">
-    </div>
-</div>
 
-<div class="container items-center mx-auto">
-<div class="grid grid-cols-3 items-center gap-6 mx-auto">
-    {% for feature in site.features %}
-    {% if feature.title %}
-    <div class="flex">
-        <div>
-            <span class="fa-stack fa-1x">
-                <i class="iconBack fas fa-circle fa-stack-2x text-headroom"></i>
-                <i class="iconTop fas fa-{{ feature.fontawesome_icon_name }} fa-stack-1x text-light-text"></i>
-            </span>
-        </div>
-        <div>
-            <h3 class="text-2xl font-medium">{{ feature.title }}</h3>
-            <p>{{ feature.description }}</p>
+    <div class="container mx-auto space-y-14">
+        <div class="text-3xl font-bold">More Features</div>
+        <div class="grid grid-cols-3 gap-y-16">
+            {% for feature in site.features %}
+            {% if feature.title %}
+            <div class="flex space-x-4">
+                <div>
+                    <span class="fa-stack fa-1x">
+                        <i class="iconBack fas fa-circle fa-stack-2x text-headroom"></i>
+                        <i class="iconTop fas fa-{{ feature.fontawesome_icon_name }} fa-stack-1x text-light-text"></i>
+                    </span>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-medium">{{ feature.title }}</h3>
+                    <p>{{ feature.description }}</p>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
         </div>
     </div>
-    {% endif %}
-    {% endfor %}
-</div>
 </div>
