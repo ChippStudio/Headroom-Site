@@ -1,4 +1,4 @@
-<div class="space-y-24 pb-20">
+<div class="space-y-24 pb-52">
     <div class="container items-center mx-auto space-y-36 pt-40 pb-20">
         <div class="lg:flex items-center">
             <img class="max-w-4xl, lg:max-w-3xl, md:max-w-2xl" src="/assets/chapter_view.png"
@@ -20,19 +20,19 @@
 
     <div class="container mx-auto space-y-14">
         <div class="text-3xl font-bold">More Features</div>
-        <div class="grid md:grid-cols-3 xs:grid-cols-1 gap-y-16">
+        <div class="grid xl:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 gap-y-24 gap-x-24">
             {% for feature in site.features %}
             {% if feature.title %}
             <div class="flex space-x-4">
                 <div>
-                    <span class="fa-stack fa-1x">
-                        <i class="iconBack fas fa-circle fa-stack-2x text-headroom"></i>
-                        <i class="iconTop fas fa-{{ feature.fontawesome_icon_name }} fa-stack-1x text-light-text"></i>
+                    <span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x text-headroom"></i>
+                        <i class="font-light fas fa-{{ feature.fontawesome_icon_name }} fa-stack-1x text-light-text"></i>
                     </span>
                 </div>
                 <div>
-                    <h3 class="text-2xl font-medium">{{ feature.title }}</h3>
-                    <p>{{ feature.description }}</p>
+                    <h3 class="text-2xl font-medium text-headroom">{{ feature.title }}</h3>
+                    <p class="text-xl text-headroom opacity-60">{{ feature.description }}</p>
                 </div>
             </div>
             {% endif %}

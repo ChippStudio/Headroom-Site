@@ -42,25 +42,41 @@ feature_track_phrase: Fully integrated with macOS. With audio playback, you can 
 
 features:     
 
-  - title                                 : iCloud Sync
-    description                           : All your words and languages on all your iOS devices
-    fontawesome_icon_name                 : cloud 
+  - title                                 : Fast native mac app
+    description                           : All processes occur locally on your machine without the need to upload to or download from a server
+    fontawesome_icon_name                 : desktop
 
-  - title                                 : Dark Mode
-    description                           : Best look in every mode
-    fontawesome_icon_name                 : adjust
-    
-  - title                                 : Multiwindows Support
-    description                           : Practice and add more words simultaneously
+  - title                                 : No audio encoding or re-encoding
+    description                           : Headroom doesn't alter your audio; it only modifies the ID3 tags in your podcast episode
+    fontawesome_icon_name                 : compact-disc
+
+  - title                                 : Multi-Window support
+    description                           : Edit multiple episodes simultaneously with our elegant multi-window solution
     fontawesome_icon_name                 : window-restore
+    
+  - title                                 : Interactive playback and listen back
+    description                           : Adjust the playback position and the time frame for new chapters, then listen back. The chapter will always start from the correct location
+    fontawesome_icon_name                 : play
 
-  - title                                 : Any Size
-    description                           : Any orientations and sizes supported
-    fontawesome_icon_name                 : window-maximize
+  - title                                 : Easy to add chapters and modify time frames
+    description                           : Everything in a single view. No need to navigate through various parts of the interface
+    fontawesome_icon_name                 : th-list
 
-  - title                                 : Accessibility
-    description                           : From VoiceOver to color contrast
-    fontawesome_icon_name                 : universal-access
+  - title                                 : Drag & Drop audio file
+    description                           : Opening your episode file is effortless. Either select it from the Finder or simply drag & drop it into the app window
+    fontawesome_icon_name                 : file-medical-alt
+
+  - title                                 : Drag & Drop images in chapters and podcast
+    description                           : Easily add podcast or chapter artwork by simply dragging and dropping
+    fontawesome_icon_name                 : images
+
+  - title                                 : More tags for you episode
+    description                           : Not just chapters – modify other metadata about your podcast as well
+    fontawesome_icon_name                 : tags
+
+  - title                                 : More in the future...
+    description                           : We continuously update the Headroom app. Be a part of the journey by sending us your feedback
+    fontawesome_icon_name                 : code
 
 # Information About Yourself
 your_name: Chipp Studio OÜ                                
