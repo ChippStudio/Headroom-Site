@@ -1,0 +1,54 @@
+#page title
+page_title: Words Stack | Personal vocabulary builder
+
+# App Info
+ios_app_id: 1635180628
+ios_app_country: us
+
+appstore_link:
+playstore_link:
+presskit_download_link:
+
+app_icon: assets/appicon.png
+app_name: Words Stack
+app_price: Free • Offers In-App Purchases 
+app_description: Build your own vocabulary <br> With three easy steps <br> Discover, Add and Practice
+
+enable_smart_app_banner: true
+
+# Landing info
+landing_title: Navigate your listeners in the right place
+landing_phrase: Headroom allows to create chapters for you podcast episode, with the easiest visual way. Chapters help to users to find right content in one click
+
+# Information About Yourself
+your_name: Chipp Studio OÜ                                
+your_link: https://chippstudio.ee                    
+your_city: Tallinn                                
+email_address: info@chippstudio.ee
+facebook_username:                                           
+instagram_username: chippstudio
+twitter_username: ChippStudio
+github_username: 
+youtube_username:
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
