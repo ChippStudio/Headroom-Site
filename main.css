@@ -738,11 +738,6 @@ input[type="range"]:active::-webkit-slider-thumb {
   inset: 0px;
 }
 
-.inset-x-0 {
-  left: 0px;
-  right: 0px;
-}
-
 .-bottom-\[47px\] {
   bottom: -47px;
 }
@@ -1505,10 +1500,6 @@ input[type="range"]:active::-webkit-slider-thumb {
   max-width: 48rem;
 }
 
-.max-w-4xl {
-  max-width: 56rem;
-}
-
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -1644,10 +1635,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.\!transform-none {
-  transform: none !important;
 }
 
 .transform-none {
@@ -1838,10 +1825,6 @@ input[type="range"]:active::-webkit-slider-thumb {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .\!flex-row {
   flex-direction: row !important;
 }
@@ -1886,27 +1869,13 @@ input[type="range"]:active::-webkit-slider-thumb {
   gap: 1.5rem;
 }
 
-.gap-y-16 {
-  row-gap: 4rem;
-}
-
-.gap-x-8 {
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
-}
-
-.gap-x-16 {
-  -moz-column-gap: 4rem;
-       column-gap: 4rem;
+.gap-x-24 {
+  -moz-column-gap: 6rem;
+       column-gap: 6rem;
 }
 
 .gap-y-24 {
   row-gap: 6rem;
-}
-
-.gap-x-24 {
-  -moz-column-gap: 6rem;
-       column-gap: 6rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2511,6 +2480,11 @@ input[type="range"]:active::-webkit-slider-thumb {
   padding-bottom: 0.75rem;
 }
 
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -2546,11 +2520,6 @@ input[type="range"]:active::-webkit-slider-thumb {
   padding-bottom: 5px;
 }
 
-.py-32 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -2563,8 +2532,12 @@ input[type="range"]:active::-webkit-slider-thumb {
   padding-bottom: 5rem;
 }
 
-.pb-40 {
-  padding-bottom: 10rem;
+.pb-32 {
+  padding-bottom: 8rem;
+}
+
+.pb-52 {
+  padding-bottom: 13rem;
 }
 
 .pb-\[5px\] {
@@ -2631,36 +2604,12 @@ input[type="range"]:active::-webkit-slider-thumb {
   padding-top: 1.25rem;
 }
 
-.pt-80 {
-  padding-top: 20rem;
-}
-
 .pt-\[0\.37rem\] {
   padding-top: 0.37rem;
 }
 
 .pt-\[6px\] {
   padding-top: 6px;
-}
-
-.pt-60 {
-  padding-top: 15rem;
-}
-
-.pb-32 {
-  padding-bottom: 8rem;
-}
-
-.pt-32 {
-  padding-top: 8rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
-.pb-52 {
-  padding-bottom: 13rem;
 }
 
 .text-left {
@@ -2769,14 +2718,14 @@ input[type="range"]:active::-webkit-slider-thumb {
   line-height: 1.25rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-black {
@@ -3082,20 +3031,20 @@ input[type="range"]:active::-webkit-slider-thumb {
   opacity: 0.5;
 }
 
-.opacity-\[\.53\] {
-  opacity: .53;
-}
-
-.opacity-\[\.54\] {
-  opacity: .54;
+.opacity-60 {
+  opacity: 0.6;
 }
 
 .opacity-70 {
   opacity: 0.7;
 }
 
-.opacity-60 {
-  opacity: 0.6;
+.opacity-\[\.53\] {
+  opacity: .53;
+}
+
+.opacity-\[\.54\] {
+  opacity: .54;
 }
 
 .shadow {
@@ -4745,20 +4694,16 @@ input[type="range"]:active::-webkit-slider-thumb {
 }
 
 @media (min-width: 320px) {
-  .xs\:max-w-xl {
-    max-width: 36rem;
-  }
-
   .xs\:max-w-2xl {
     max-width: 42rem;
   }
 
-  .xs\:grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+  .xs\:max-w-xl {
+    max-width: 36rem;
   }
 
-  .xs\:pb-1 {
-    padding-bottom: 0.25rem;
+  .xs\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .xs\:pb-14 {
@@ -4786,24 +4731,16 @@ input[type="range"]:active::-webkit-slider-thumb {
     margin-bottom: 0px;
   }
 
-  .md\:flex {
-    display: flex;
-  }
-
   .md\:max-w-2xl {
     max-width: 42rem;
-  }
-
-  .md\:max-w-\[720px\] {
-    max-width: 720px;
   }
 
   .md\:max-w-4xl {
     max-width: 56rem;
   }
 
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  .md\:max-w-\[720px\] {
+    max-width: 720px;
   }
 
   .md\:grid-cols-2 {
@@ -4830,10 +4767,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 
   .lg\:max-w-\[972px\] {
     max-width: 972px;
-  }
-
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
