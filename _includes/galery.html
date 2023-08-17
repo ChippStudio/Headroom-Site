@@ -20,12 +20,12 @@
         {% if slide.isActive %}
         <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
             data-te-carousel-item data-te-carousel-active>
-            <img src="{{ slide.image | relative_url }}" class="block md:max-w-4xl xs:max-w-xl mx-auto items-center" alt={{ slide.alt }} />
+            <img src="{{ slide.image | relative_url }}" class="block lg:max-w-4xl md:max-w-2xl xs:max-w-sm xs:px-2 mx-auto items-center" alt={{ slide.alt }} />
         </div>
         {% else  %}
         <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
             data-te-carousel-item>
-            <img src="{{ slide.image | relative_url }}" class="block md:max-w-4xl xs:max-w-xl mx-auto items-center" alt={{ slide.alt }} />
+            <img src="{{ slide.image | relative_url }}" class="block lg:max-w-4xl md:max-w-2xl xs:max-w-sm mx-auto items-center" alt={{ slide.alt }} />
         </div>
         {% endif %}
         {% endfor %}
