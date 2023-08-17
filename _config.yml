@@ -1,5 +1,5 @@
 #page title
-page_title: Words Stack | Personal vocabulary builder
+page_title: 'Headroom: Chapters'
 
 # App Info
 ios_app_id: 1635180628
@@ -16,9 +16,37 @@ app_description: Build your own vocabulary <br> With three easy steps <br> Disco
 
 enable_smart_app_banner: true
 
-# Landing info
-landing_title: Navigate your listeners in the right place
-landing_phrase: Headroom allows to create chapters for you podcast episode, with the easiest visual way. Chapters help to users to find right content in one click
+# Header
+header_title: Guide your listeners to the right spot in your podcast
+header_subtitle: Create chapters for your podcast episode to help listeners find the right content in just one click. Headroom offers a user-friendly visual tool for chapter creation, ensuring your audience can easily access the content they're interested in
+
+# Features info
+feature_chapter_title: Chapter View
+feature_chapter_phrase: All chapter settings are consolidated in a single view. You can edit the title, insert a link, adjust the time frame, and, naturally, upload an image for the chapter
+feature_track_title: Track View
+feature_track_phrase: Fully integrated with macOS. With audio playback, you can ensure that the chapter has the correct time frame.
+
+features:     
+
+  - title                                 : iCloud Sync
+    description                           : All your words and languages on all your iOS devices
+    fontawesome_icon_name                 : cloud 
+
+  - title                                 : Dark Mode
+    description                           : Best look in every mode
+    fontawesome_icon_name                 : adjust
+    
+  - title                                 : Multiwindows Support
+    description                           : Practice and add more words simultaneously
+    fontawesome_icon_name                 : window-restore
+
+  - title                                 : Any Size
+    description                           : Any orientations and sizes supported
+    fontawesome_icon_name                 : window-maximize
+
+  - title                                 : Accessibility
+    description                           : From VoiceOver to color contrast
+    fontawesome_icon_name                 : universal-access
 
 # Information About Yourself
 your_name: Chipp Studio OÜ                                
