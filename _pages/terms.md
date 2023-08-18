@@ -5,7 +5,7 @@ include_in_header: false
 ---
 
 **Last updated**
-January 20, 2023
+August 18, 2023
 
 Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the Bear mobile application (the "Service") operated by Chipp Studio OÜ ("us", "we", or "our").
 
