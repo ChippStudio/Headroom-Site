@@ -14,7 +14,7 @@ app_name: 'Headroom: Chapters'
 app_price: Free • Beta
 app_description:
 
-enable_smart_app_banner: true
+enable_smart_app_banner: false
 
 # Header
 header_title: Guide your listeners to the right spot in your podcast
