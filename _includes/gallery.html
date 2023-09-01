@@ -1,0 +1,19 @@
+<div class="bg-headroom">
+  
+
+  <div class="grid gap-4 flex">
+    {% for slide in site.gallery %}
+    {% if slide.isActive %}
+    
+      <img class="h-auto max-w-full rounded-lg" src="{{ slide.image | relative_url }}"
+        alt="">
+    
+    {% else  %}
+    <div class="flex flex-row overflow-y-auto">
+        <img class="h-auto max-w-full rounded-lg flex"
+          src="{{ slide.image | relative_url }}" alt="">
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
