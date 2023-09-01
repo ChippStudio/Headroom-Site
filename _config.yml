@@ -22,15 +22,19 @@ header_subtitle: Create chapters for your podcast episode to help listeners find
 
 # Gallery
 gallery:
-  - image: /images/screenshot0.png
-    alt: Headroom main screenshot
-    isActive: false
-
-  - image: /images/screenshot1.png
+  - image: /images/screenshots/all_devices.png
     alt: Headroom main screenshot
     isActive: true
 
-  - image: /images/screenshot2.png
+  - image: /images/screenshots/iphones.png
+    alt: Headroom main screenshot
+    isActive: false
+
+  - image: /images/screenshots/mac.png
+    alt: Headroom main screenshot
+    isActive: false
+
+  - image: /images/screenshots/ipads.png
     alt: Headroom main screenshot
     isActive: false
 
@@ -39,21 +43,25 @@ feature_chapter_title: Chapter View
 feature_chapter_phrase: All chapter settings are consolidated in a single view. You can edit the title, insert a link, adjust the time frame, and, naturally, upload an image for the chapter
 feature_chapter_image: /images/chapter_view.png
 feature_track_title: Track View
-feature_track_phrase: Fully integrated with macOS. With audio playback, you can ensure that the chapter has the correct time frame
+feature_track_phrase: Fully integrated with macOS and iOS. With audio playback, you can ensure that the chapter has the correct time frame
 feature_track_image: /images/track_view.png
 
 features:     
 
-  - title                                 : Fast native mac app
+  - title                                 : Fast native Mac app
     description                           : All processes occur locally on your machine without the need to upload to or download from a server
     fontawesome_icon_name                 : desktop
+
+  - title                                 : Fast native iOS app
+    description                           : All processes occur locally on your iPhone or iPad without the need to upload to or download from a server
+    fontawesome_icon_name                 : mobile-alt
 
   - title                                 : No audio encoding or re-encoding
     description                           : Headroom doesn't alter your audio; it only modifies the ID3 tags in your podcast episode
     fontawesome_icon_name                 : compact-disc
 
   - title                                 : Multi-Window support
-    description                           : Edit multiple episodes simultaneously with our elegant multi-window solution
+    description                           : Edit multiple episodes simultaneously with our elegant multi-window solution. On Mac or iPad
     fontawesome_icon_name                 : window-restore
     
   - title                                 : Interactive playback and listen back
