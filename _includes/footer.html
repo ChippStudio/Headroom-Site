@@ -23,6 +23,15 @@
 		</a>
 		{% endif %}
 
+		{% if site.mastodon_link %}
+		<a href="https://{{ site.mastodon_link }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fas fa-circle fa-stack-2x text-light-text"></i>
+				<i class="socialIconTop fab fa-mastodon fa-stack-1x text-headroom"></i>
+			</span>
+		</a>
+		{% endif %}
+
 		{% if site.instagram_username %}
 		<a href="https://instagram.com/{{ site.instagram_username }}">
 			<span class="fa-stack fa-1x">
