@@ -2,7 +2,7 @@
 page_title: 'Headroom: Chapters'
 
 # App Info
-ios_app_id:
+ios_app_id: 6453882470
 ios_app_country: us
 
 presskit_download_link:
@@ -12,15 +12,15 @@ app_name: 'Headroom: Chapters'
 app_price: Free • Beta
 app_description:
 
-enable_smart_app_banner: false
+enable_smart_app_banner: true
 
 # Download buttons
 store_buttons:
   - image: /images/ios_appstore.svg
-    link: https://headroom.ee
+    link: https://apps.apple.com/us/app/headroom/id6453882470
 
   - image: /images/mac_appstore.svg
-    link: https://headroom.ee
+    link: https://apps.apple.com/us/app/headroom/id6453882470
 
 # Header
 header_title: Guide your listeners to the right spot in your podcast
