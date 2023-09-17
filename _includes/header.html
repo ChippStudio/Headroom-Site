@@ -8,11 +8,16 @@
         {{ site.header_subtitle }}
     </div>
 
-    <div>
-        <button class="bg-headroom text-light-text font-medium py-2 px-4 rounded-full flex space-x-24 mx-auto">
-            <a href="https://testflight.apple.com/join/hV2WcSQP">
-                <div class="pr-8">Join Beta on TestFlight: Mac OS and iOS</div>
+    <div class="flex mx-auto items-center space-x-4">
+        <div class="grow"></div>
+        <div class="flex grow-0 space-x-4">
+            {% for button in site.store_buttons %}
+            <a href="{{ button.link }}">
+                <img class="mx-auto items-center" src="{{ button.image | relative_url }}" alt="Download Headroom">
             </a>
-        </button>
+            {% endfor %}
+        </div>
+        <div class="grow"></div>
     </div>
+    
 </div>
