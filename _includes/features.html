@@ -1,6 +1,14 @@
 <div class="space-y-24 xs:pb-24 md:pb-52 xs:pt-12 md:pt-40 xs:px-0 md:px-4">
     <div class="container items-center mx-auto xs:space-y-16 md:space-y-36">
         <div class="lg:flex items-center">
+            <div class="space-y-3 pr-36 xs:pb-14">
+                <div class="text-4xl font-semibold text-headroom">{{ site.feature_publisher_title }}</div>
+                <div class="text-xl text-headroom opacity-70">{{ site.feature_publisher_phrase }}</div>
+            </div>
+            <img class="xs:max-w-xs md:max-w-md lg:max-w-2xl" src="{{ site.feature_publisher_image | relative_url }}"
+                alt="Headroom: Chapters - track view">
+        </div>
+        <div class="lg:flex items-center">
             <img class="xs:max-w-xs md:max-w-md lg:max-w-2xl" src="{{ site.feature_chapter_image | relative_url }}"
                 alt="Headroom: Chapters - chapter view">
             <div class="space-y-3 pl-36">

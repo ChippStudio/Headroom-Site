@@ -1,5 +1,5 @@
 #page title
-page_title: 'Headroom: Chapters'
+page_title: 'Headroom: Podcast Marketing'
 
 # App Info
 ios_app_id: 6453882470
@@ -8,8 +8,8 @@ ios_app_country: us
 presskit_download_link:
 
 app_icon: images/icon.png
-app_name: 'Headroom: Chapters'
-app_price: Free • Beta
+app_name: 'Headroom: Podcast Marketing'
+app_price: Free
 app_description:
 
 enable_smart_app_banner: true
@@ -23,8 +23,8 @@ store_buttons:
     link: https://apps.apple.com/us/app/headroom/id6453882470
 
 # Header
-header_title: Guide your listeners to the right spot in your podcast
-header_subtitle: Create chapters for your podcast episode to help listeners find the right content in just one click. Headroom offers a user-friendly visual tool for chapter creation, ensuring your audience can easily access the content they're interested in
+header_title: 'Headroom: Direct your listeners to the precise moments in your podcast, making it easily searchable and accessible.'
+header_subtitle: Enhance your podcast episodes by creating chapters, allowing listeners to pinpoint the right content with just a click. With Headroom, not only can you craft these segments using a user-friendly visual tool, but you can also edit ID3 MP3 tags to ensure that your metadata is accurate. This ensures your audience can easily access and recognize the content they're keen on
 
 # Gallery
 gallery:
@@ -40,11 +40,22 @@ gallery:
     alt: Headroom main screenshot
     isActive: false
 
-  - image: /images/screenshots/ipads.png
+  - image: /images/screenshots/ipad.png
+    alt: Headroom main screenshot
+    isActive: false
+
+  - image: /images/screenshots/iphones2.png
+    alt: Headroom main screenshot
+    isActive: false
+
+  - image: /images/screenshots/ipad.png
     alt: Headroom main screenshot
     isActive: false
 
 # Features info
+feature_publisher_title: Publishers & Podcasts
+feature_publisher_phrase: Organize your podcasts with publishers—the easiest way to locate and manage all your shows. Streamline your workflow and elevate the listener experience with our intuitive tools.
+feature_publisher_image: /images/publishers_view.png
 feature_chapter_title: Chapter View
 feature_chapter_phrase: All chapter settings are consolidated in a single view. You can edit the title, insert a link, adjust the time frame, and, naturally, upload an image for the chapter
 feature_chapter_image: /images/chapter_view.png
