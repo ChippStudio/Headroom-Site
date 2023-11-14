@@ -1,11 +1,12 @@
-{
-    "applinks": {
-        "details": [{
-            "appIDs": ["7H73NQ5KRA.ee.chippstudio.headroom"],
-            "components": [{
-                "/": "/app/*",
-                "comment": "Matches any URL whose path starts with /app/"
-            }]
-        }]
-    }
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirect</title>
+    <script type="text/javascript">
+        window.location.href = '/apple-app-site-association.json';
+    </script>
+</head>
+<body>
+    If you are not redirected, follow this <a href="/apple-app-site-association.json">link</a>.
+</body>
+</html>

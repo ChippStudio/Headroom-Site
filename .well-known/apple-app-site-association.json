@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "details": [{
+            "appIDs": ["7H73NQ5KRA.ee.chippstudio.headroom"],
+            "components": [{
+                "/": "/app/*",
+                "comment": "Matches any URL whose path starts with /app/"
+            }]
+        }]
+    }
+}
