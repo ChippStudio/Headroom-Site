@@ -1,5 +1,5 @@
 #page title
-page_title: 'Headroom: Podcast Marketing'
+page_title: 'Headroom: Podcast Marketing Assistant'
 
 # App Info
 ios_app_id: 6453882470
@@ -8,7 +8,7 @@ ios_app_country: us
 presskit_download_link: https://headroompublic.ams3.digitaloceanspaces.com/Headroom_PressKit.zip
 
 app_icon: images/icon.png
-app_name: 'Headroom: Podcast Marketing'
+app_name: 'Headroom: Podcast Marketing Assistant'
 app_price: Free
 app_description:
 
@@ -23,8 +23,8 @@ store_buttons:
     link: https://apps.apple.com/us/app/headroom/id6453882470
 
 # Header
-header_title: 'Headroom: Direct your listeners to the precise moments in your podcast, making it easily searchable and accessible.'
-header_subtitle: Enhance your podcast episodes by creating chapters, allowing listeners to pinpoint the right content with just a click. With Headroom, not only can you craft these segments using a user-friendly visual tool, but you can also edit ID3 MP3 tags to ensure that your metadata is accurate. This ensures your audience can easily access and recognize the content they're keen on
+header_title: Hire Your Podcast Marketing Assistant. Perfecting Your Show's Success!
+header_subtitle: Crafting and Amplifying Your Podcast's Voice. Transform raw episodes into engaging stories and create compelling advertising materials with ease. A one-stop solution for podcast perfection
 
 # Gallery
 gallery:
@@ -53,6 +53,9 @@ gallery:
     isActive: false
 
 # Features info
+feature_assistant_title: Headroom Assistant
+feature_assistant_phrase: An AI-driven feature within the Headroom app, designed to effortlessly transcribe podcast episodes with a single click. Supporting over 100 languages, it enables podcasters to convert audio content into various text formats such as markdown, plain text, and CSV, enhancing accessibility and simplifying content repurposing
+feature_assistant_image: /images/headroom_assistant.png
 feature_publisher_title: Publishers & Podcasts
 feature_publisher_phrase: Organize your podcasts with publishers—the easiest way to locate and manage all your shows. Streamline your workflow and elevate the listener experience with our intuitive tools.
 feature_publisher_image: /images/publishers_view.png
@@ -73,6 +76,10 @@ features:
     description                           : All processes occur locally on your iPhone or iPad without the need to upload to or download from a server
     fontawesome_icon_name                 : mobile-alt
 
+  - title                                 : AI-Powered on Your Machine
+    description                           : Experience the full suite of AI features - Transcription and more
+    fontawesome_icon_name                 : microphone-alt
+
   - title                                 : No audio encoding or re-encoding
     description                           : Headroom doesn't alter your audio; it only modifies the ID3 tags in your podcast episode
     fontawesome_icon_name                 : compact-disc
@@ -80,6 +87,10 @@ features:
   - title                                 : Multi-Window support
     description                           : Edit multiple episodes simultaneously with our elegant multi-window solution. On Mac or iPad
     fontawesome_icon_name                 : window-restore
+
+  - title                                 : Shortcuts
+    description                           : Utilize keyboard shortcuts to expedite workflow speed
+    fontawesome_icon_name                 : keyboard
     
   - title                                 : Interactive playback and listen back
     description                           : Adjust the playback position and the time frame for new chapters, then listen back. The chapter will always start from the correct location
