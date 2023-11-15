@@ -119,8 +119,10 @@ features:
 prices:
 
   - title: 'Headroom: Start'
+    icon: certificate
     subtitle: Unleash Its Full Potential for Beginner Podcasters and Publishers
     yearly_price: Free
+    isWithDivider: true
     features:
       - title: 1 Publisher
       - title: 1 Podcast
@@ -129,9 +131,11 @@ prices:
       - title: Unlimited chapter editor
 
   - title: 'Headroom: PRO'
+    icon: certificate
     subtitle: The full power of Headroom, optimized for publishers and individual podcasters.
     montly_price: or $9.99 / Month
     yearly_price: $89.99 / Year
+    isWithDivider: false
     features:
       - title: Unlimited Publishers
       - title: Unlimited Podcasts
