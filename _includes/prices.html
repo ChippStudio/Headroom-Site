@@ -1,34 +1,41 @@
 <div class="space-y-24 xs:pb-24 md:pb-52 xs:pt-12 md:pt-40 xs:px-0 md:px-4">
-    <div class="container items-center mx-auto space-y-14">
+    <div class="container items-center mx-auto">
         <div class="text-3xl font-bold">Prices</div>
     </div>
 
     <div class="container items-center mx-auto gap-">
         <div class="grid gap-4 md:grid-cols-2">
+            {% for price in site.prices %}
             <div class="py-8">
-                <!-- Pricing Cards Container -->
                 <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="grid gap-4 md:grid-cols-4">
-                        <!-- Hobby Plan -->
-                        <div class="rounded-lg border border-gray-300 p-6"> <!-- Padding for content inside border -->
-                            <h3 class="text-lg font-bold mb-4">Hobby</h3> <!-- Margin for spacing -->
-                            <p class="text-sm text-gray-600 mb-4">The essentials to provide your best work for clients.</p> <!-- Margin for spacing -->
-                            <p class="text-4xl font-bold mb-4">$144/year</p> <!-- Margin for spacing between price and features -->
-                            <ul class="text-sm">
-                                <li class="flex items-center mb-3">
-                                    <span class="text-green-500 mr-2">✓</span> 5 products
-                                </li>
-                                <li class="flex items-center mb-3">
-                                    <span class="text-green-500 mr-2">✓</span> Up to 1,000 subscribers
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="text-green-500 mr-2">✓</span> Basic analytics
-                                </li>
-                            </ul>
+                        <div class="rounded-md border border-gray-300 p-6">
+                            <div class="p-4">
+                                <h3 class="text-2xl font-bold mb-2">{{ price.title }}</h3>
+                                <p class="text-sm text-gray-400 mb-6">{{ price.subtitle }}</p>
+                                <p class="text-2xl font-bold pb-6 pt-5">{{ price.yearly_price }}</p>
+                                {% if price.montly_price %}
+                                <p class="pb-6">{{ price.montly_price }}</p>
+                                {% endif %}
+                                <div style="height: 25px;"></div>
+                                <ul class="text-sm">
+                                    {% for feature in price.features %}
+                                    <li class="flex items-center">
+                                        <div>
+                                            <span class="fa-stack fa">
+                                                <i class="font-light fas fa-feather fa-stack-1x text-danger-800"></i>
+                                            </span>
+                                        </div>
+                                        {{ feature.title }}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            {% endfor %}
         </div>
     </div>
 </div>

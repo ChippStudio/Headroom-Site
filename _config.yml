@@ -116,6 +116,30 @@ features:
     description                           : We continuously update the Headroom app. Be a part of the journey by sending us your feedback
     fontawesome_icon_name                 : code
 
+prices:
+
+  - title: 'Headroom: Start'
+    subtitle: Unleash Its Full Potential for Beginner Podcasters and Publishers
+    yearly_price: Free
+    features:
+      - title: 1 Publisher
+      - title: 1 Podcast
+      - title: 5 episodes
+      - title: Limited ID3 tags editor
+      - title: Unlimited chapter editor
+
+  - title: 'Headroom: PRO'
+    subtitle: The full power of Headroom, optimized for publishers and individual podcasters.
+    montly_price: or $9.99 / Month
+    yearly_price: $89.99 / Year
+    features:
+      - title: Unlimited Publishers
+      - title: Unlimited Podcasts
+      - title: Unlimited Episodes
+      - title: Audio Transcriptions
+      - title: Full functional ID3 tag editor
+      - title: Unlimited chapters editor
+
 # Information About Yourself
 your_name: Chipp Studio OÜ                                
 your_link: https://chippstudio.ee                    
