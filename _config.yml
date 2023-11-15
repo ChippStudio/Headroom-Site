@@ -133,8 +133,8 @@ prices:
   - title: 'Headroom: PRO'
     icon: certificate
     subtitle: The full power of Headroom, optimized for publishers and individual podcasters.
-    montly_price: or $9.99 / Month
-    yearly_price: $89.99 / Year
+    montly_price: or $4.99 / Month
+    yearly_price: $49.99 / Year
     isWithDivider: false
     features:
       - title: Unlimited Publishers
