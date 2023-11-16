@@ -10,7 +10,10 @@ presskit_download_link: https://headroompublic.ams3.digitaloceanspaces.com/Headr
 app_icon: images/icon.png
 app_name: 'Headroom: Podcast Marketing Assistant'
 app_price: Free
-app_description:
+
+# Meta tags optimisation
+description: Headroom is your personal marketing assistant for your podcast show. Podcasting is the modern and, in many cases, the easiest way to share your knowledge, creativity, and express yourself. It is usually much easier for your audience to listen to a podcast instead of reading an article, although these two often go hand in hand. For creators, it is easier to record an audio podcast rather than a video format. However, it does not matter which option you choose. Whether you decide to write an article or record audio with or without video, it is just a matter of preference. The important thing is to tell the world about your show and promote each episode regularly.
+keywords: ai,whisper,podcast chapters,mp3,podcast,id3 tag,audio transcription,playback,openai,artwork,ia,voice,podcast editor,podcast chapters,mp3,audio editor,chapters,id3 tags,playback,audio-to-text,artwork,Podcast Manager,Metadata Editor,MP3,Audio,Chapters,Artwork,Playback,Export,Quality,Visualize
 
 enable_smart_app_banner: true
 

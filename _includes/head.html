@@ -5,9 +5,28 @@
 	<base target="_blank">
 
 	<title class="pageTitle">{{ site.page_title }}</title>
-	<meta name="description" content="{{ site.app_description }}">
+	
+	<!-- Meta tags -->
+	<meta name="description" content="{{ site.description }}">
+	<meta name="keywords" content="{{ site.keywords }}" />
+
+	<meta property="og:site_name" content="{{ site.page_title }}">
+	<meta property="og:title" content="{{ site.page_title }}" />
+	<meta property="og:description" content="{{ site.description }}" />
+	<meta property="og:image" content="{{ site.app_icon | relative_url }}" />
+	<meta property="og:url" content="https://headroom.ee" />
+	<meta property="og:type" content="website">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="{{ site.page_title }}">
+	<meta name="twitter:description" content="{{ site.description }}">
+	<meta name="twitter:image" content="Image URL Here">
+
+	<meta name="author" content="{{ site.your_name }}">
+	<meta name="copyright" content="{{ site.app_icon | relative_url }}">	
 
 	<link rel="shortcut icon" href="{{ site.app_icon | relative_url }}">
+	<link rel="canonical" href="https://headroom.ee">
 
 	<!-- Smart App Banner -->
 	{% if site.enable_smart_app_banner %}
