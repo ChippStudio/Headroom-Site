@@ -1,5 +1,5 @@
 #page title
-page_title: 'Headroom: Podcast Marketing Assistant'
+page_title: 'Headroom: Podcast Studio'
 
 # App Info
 ios_app_id: 6453882470
@@ -8,7 +8,7 @@ ios_app_country: us
 presskit_download_link: https://headroompublic.ams3.digitaloceanspaces.com/Headroom_PressKit.zip
 
 app_icon: images/icon.png
-app_name: 'Headroom: Podcast Marketing Assistant'
+app_name: 'Headroom: Podcast Studio'
 app_price: Free
 
 # Meta tags optimisation
@@ -26,8 +26,8 @@ store_buttons:
     link: https://apps.apple.com/us/app/headroom/id6453882470
 
 # Header
-header_title: Hire Your Podcast Marketing Assistant. Perfecting Your Show's Success!
-header_subtitle: Crafting and Amplifying Your Podcast's Voice. Transform raw episodes into engaging stories and create compelling advertising materials with ease. A one-stop solution for podcast perfection
+header_title: Perfecting Your Show's Success!
+header_subtitle: Crafting and Amplifying Your Podcast's Voice.<br>Plan, create and promote your show with Headroom
 
 # Gallery
 gallery:
@@ -152,8 +152,8 @@ your_name: Chipp Studio OÜ
 your_link: https://chippstudio.ee                    
 your_city: Tallinn                                
 email_address: info@chippstudio.ee
-facebook_username: headroompodcastapp                                          
-instagram_username: headroom.podcastapp
+# facebook_username: headroompodcastapp                                          
+# instagram_username: headroom.podcastapp
 twitter_username: useheadroomapp
 mastodon_link: mastodon.social/@headroom
 github_username: 
