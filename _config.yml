@@ -172,6 +172,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - vendor/
 
 include:
  - .well-known
