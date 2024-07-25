@@ -5,7 +5,7 @@ page_title: 'Headroom: Podcast Studio'
 ios_app_id: 6453882470
 ios_app_country: us
 
-presskit_download_link: https://headroompublic.ams3.digitaloceanspaces.com/Headroom_PressKit.zip
+# presskit_download_link: https://headroompublic.ams3.digitaloceanspaces.com/Headroom_PressKit.zip
 
 app_icon: images/icon.png
 app_name: 'Headroom: Podcast Studio'
@@ -15,137 +15,11 @@ app_price: Free
 description: Headroom is your personal marketing assistant for your podcast show. Podcasting is the modern and, in many cases, the easiest way to share your knowledge, creativity, and express yourself. It is usually much easier for your audience to listen to a podcast instead of reading an article, although these two often go hand in hand. For creators, it is easier to record an audio podcast rather than a video format. However, it does not matter which option you choose. Whether you decide to write an article or record audio with or without video, it is just a matter of preference. The important thing is to tell the world about your show and promote each episode regularly.
 keywords: ai,whisper,podcast chapters,mp3,podcast,id3 tag,audio transcription,playback,openai,artwork,ia,voice,podcast editor,podcast chapters,mp3,audio editor,chapters,id3 tags,playback,audio-to-text,artwork,Podcast Manager,Metadata Editor,MP3,Audio,Chapters,Artwork,Playback,Export,Quality,Visualize
 
-enable_smart_app_banner: true
-
-# Download buttons
-store_buttons:
-  - image: /images/ios_appstore.svg
-    link: https://apps.apple.com/us/app/headroom/id6453882470
-
-  - image: /images/mac_appstore.svg
-    link: https://apps.apple.com/us/app/headroom/id6453882470
+enable_smart_app_banner: false
 
 # Header
-header_title: Perfecting Your Show's Success!
-header_subtitle: Crafting and Amplifying Your Podcast's Voice.<br>Plan, create and promote your show with Headroom
-
-# Gallery
-gallery:
-  - image: /images/screenshots/all_devices.png
-    alt: Headroom main screenshot
-    isActive: true
-
-  - image: /images/screenshots/iphones.png
-    alt: Headroom main screenshot
-    isActive: false
-
-  - image: /images/screenshots/mac.png
-    alt: Headroom main screenshot
-    isActive: false
-
-  - image: /images/screenshots/ipad.png
-    alt: Headroom main screenshot
-    isActive: false
-
-  - image: /images/screenshots/iphones2.png
-    alt: Headroom main screenshot
-    isActive: false
-
-  - image: /images/screenshots/ipad.png
-    alt: Headroom main screenshot
-    isActive: false
-
-# Features info
-feature_assistant_title: Headroom Assistant
-feature_assistant_phrase: An AI-driven feature within the Headroom app, designed to effortlessly transcribe podcast episodes with a single click. Supporting over 100 languages, it enables podcasters to convert audio content into various text formats such as markdown, plain text, and CSV, enhancing accessibility and simplifying content repurposing
-feature_assistant_image: /images/headroom_assistant.png
-feature_publisher_title: Publishers & Podcasts
-feature_publisher_phrase: Organize your podcasts with publishers—the easiest way to locate and manage all your shows. Streamline your workflow and elevate the listener experience with our intuitive tools.
-feature_publisher_image: /images/publishers_view.png
-feature_chapter_title: Chapter View
-feature_chapter_phrase: All chapter settings are consolidated in a single view. You can edit the title, insert a link, adjust the time frame, and, naturally, upload an image for the chapter
-feature_chapter_image: /images/chapter_view.png
-feature_track_title: Track View
-feature_track_phrase: Fully integrated with macOS and iOS. With audio playback, you can ensure that the chapter has the correct time frame
-feature_track_image: /images/track_view.png
-
-features:     
-
-  - title                                 : Fast native Mac app
-    description                           : All processes occur locally on your machine without the need to upload to or download from a server
-    fontawesome_icon_name                 : desktop
-
-  - title                                 : Fast native iOS app
-    description                           : All processes occur locally on your iPhone or iPad without the need to upload to or download from a server
-    fontawesome_icon_name                 : mobile-alt
-
-  - title                                 : AI-Powered on Your Machine
-    description                           : Experience the full suite of AI features - Transcription and more
-    fontawesome_icon_name                 : microphone-alt
-
-  - title                                 : No audio encoding or re-encoding
-    description                           : Headroom doesn't alter your audio; it only modifies the ID3 tags in your podcast episode
-    fontawesome_icon_name                 : compact-disc
-
-  - title                                 : Multi-Window support
-    description                           : Edit multiple episodes simultaneously with our elegant multi-window solution. On Mac or iPad
-    fontawesome_icon_name                 : window-restore
-
-  - title                                 : Shortcuts
-    description                           : Utilize keyboard shortcuts to expedite workflow speed
-    fontawesome_icon_name                 : keyboard
-    
-  - title                                 : Interactive playback and listen back
-    description                           : Adjust the playback position and the time frame for new chapters, then listen back. The chapter will always start from the correct location
-    fontawesome_icon_name                 : play
-
-  - title                                 : Easy to add chapters and modify time frames
-    description                           : Everything in a single view. No need to navigate through various parts of the interface
-    fontawesome_icon_name                 : th-list
-
-  - title                                 : Drag & Drop audio file
-    description                           : Opening your episode file is effortless. Either select it from the Finder or simply drag & drop it into the app window
-    fontawesome_icon_name                 : file-medical-alt
-
-  - title                                 : Drag & Drop images in chapters and podcast
-    description                           : Easily add podcast or chapter artwork by simply dragging and dropping
-    fontawesome_icon_name                 : images
-
-  - title                                 : More tags for you episode
-    description                           : Not just chapters – modify other metadata about your podcast as well
-    fontawesome_icon_name                 : tags
-
-  - title                                 : More in the future...
-    description                           : We continuously update the Headroom app. Be a part of the journey by sending us your feedback
-    fontawesome_icon_name                 : code
-
-prices:
-
-  - title: 'Headroom: Start'
-    icon: certificate
-    subtitle: Unleash Its Full Potential for Beginner Podcasters and Publishers
-    yearly_price: Free
-    isWithDivider: true
-    features:
-      - title: 1 Publisher
-      - title: 1 Podcast
-      - title: 5 episodes
-      - title: Limited ID3 tags editor
-      - title: Unlimited chapter editor
-
-  - title: 'Headroom: PRO'
-    icon: certificate
-    subtitle: The full power of Headroom, optimized for publishers and individual podcasters.
-    montly_price: or $4.99 / Month
-    yearly_price: $49.99 / Year
-    isWithDivider: false
-    features:
-      - title: Unlimited Publishers
-      - title: Unlimited Podcasts
-      - title: Unlimited Episodes
-      - title: Audio Transcriptions
-      - title: Full functional ID3 tag editor
-      - title: Unlimited chapters editor
+header_title: Podcasting in the most efficient way
+header_subtitle: Headroom is one solution for podcast production, providing all that you need to record, edit, prepare, and deliver an episode.
 
 # Information About Yourself
 your_name: Chipp Studio OÜ                                

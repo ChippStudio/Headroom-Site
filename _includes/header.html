@@ -1,23 +1,8 @@
-<div class="md:space-y-24 xs:space-y-12 md:pt-32 xs:pt-16 md:pb-32 xs:pb-24 px-3 text-center mx-auto">
-    <div class="xs:text-4xl md:text-6xl text-headroom font-bold text-center max-w-5xl mx-auto items-center space-x-4">
+<div class="container mx-auto">
+    <div class="text-5xl font-bold">
         {{ site.header_title }}
     </div>
-
-    <div
-        class="xs:text-xl md:text-2xl font-light text-headroom opacity-70 text-center max-w-3xl mx-auto items-center space-x-4">
+    <div>
         {{ site.header_subtitle }}
     </div>
-
-    <div class="flex mx-auto items-center space-x-4">
-        <div class="grow"></div>
-        <div class="flex grow-0 space-x-4">
-            {% for button in site.store_buttons %}
-            <a href="{{ button.link }}">
-                <img class="mx-auto items-center" src="{{ button.image | relative_url }}" alt="Download Headroom">
-            </a>
-            {% endfor %}
-        </div>
-        <div class="grow"></div>
-    </div>
-    
 </div>

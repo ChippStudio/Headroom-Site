@@ -1,25 +1,26 @@
-<header class="flex items-center px-5 pt-5">
-	<div class="flex items-center">
+<header>
+	<div class="container mx-auto flex px-5 pt-5 items-center">
 		<div>
 			{% if page.url != '/' %}
-				<a href="../" target="_self"><img class="w-12 h-12" src="{{ site.app_icon | relative_url }}"></a>
+			<a href="../" target="_self"><img class="w-12 h-12" src="{{ site.app_icon | relative_url }}"></a>
 			{% else %}
-				<img class="w-12 h-12" src="{{ site.app_icon | relative_url }}">
+			<img class="w-12 h-12" src="{{ site.app_icon | relative_url }}">
 			{% endif %}
 		</div>
 		<p class="font-semibold">{{ site.app_name }}</p>
-	</div>
-	<div class="grow"></div>
-	<div class="snap-x">
+
+		<div class="grow"></div>
+		<div class="snap-x">
 		<ul>
 			{% for page in site.pages %}
-				{% if page.include_in_header == true %}
-				<li><a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a></li>
-				{% endif %}
+			{% if page.include_in_header == true %}
+			<li><a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a></li>
+			{% endif %}
 			{% endfor %}
 			{% if site.presskit_download_link %}
-				<li><a href="{{ site.presskit_download_link }}">Press Kit</a></li>
+			<li><a href="{{ site.presskit_download_link }}">Press Kit</a></li>
 			{% endif %}
 		</ul>
+		</div>
 	</div>
 </header>
