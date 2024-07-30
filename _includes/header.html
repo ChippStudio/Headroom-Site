@@ -1,8 +1,89 @@
-<div class="container mx-auto">
-    <div class="text-5xl font-bold">
-        {{ site.header_title }}
+<div class="md:container md:mx-auto">
+    <div class="max-w-3xl space-y-3">
+        <div class="text-6xl pt-16">
+            {{ site.header_title }}
+        </div>
+        <div class="text-2xl pt-3">
+            {{ site.header_subtitle }}
+        </div>
     </div>
-    <div>
-        {{ site.header_subtitle }}
+
+    <div class="flex items-center mx-auto mt-16">
+        <button class="bg-sky-700 hover:bg-sky-800 rounded-full">
+            <div class="text-lg font-semibold mx-8 my-3 text-white">Join the waiting list</div>
+        </button>
+
+        <div class="text-sm font-semibold text-indigo-700 ml-8">
+            {% if site.facebook_username %}
+            <a href="https://facebook.com/{{ site.facebook_username }}">
+                Facebook |
+            </a>
+            {% endif %}
+
+            {% if site.facebook_username and (site.twitter_username or site.mastodon_link or site.instagram_username or
+            site.github_username or site.email_address) %}
+            |
+            {% endif %}
+
+            {% if site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+                X (Twitter)
+            </a>
+            {% endif %}
+
+            {% if site.twitter_username and (site.mastodon_link or site.instagram_username or site.github_username or
+            site.email_address) %}
+            |
+            {% endif %}
+
+            {% if site.mastodon_link %}
+            <a href="https://{{ site.mastodon_link }}">
+                Mastadon
+            </a>
+            {% endif %}
+
+            {% if site.mastodon_link and (site.instagram_username or site.github_username or site.email_address) %}
+            |
+            {% endif %}
+
+            {% if site.instagram_username %}
+            <a href="https://instagram.com/{{ site.instagram_username }}">
+                Instagram
+            </a>
+            {% endif %}
+
+            {% if site.instagram_username and (site.github_username or site.email_address) %}
+            |
+            {% endif %}
+
+            {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}">
+                GitHub
+            </a>
+            {% endif %}
+
+            {% if site.github_username and site.email_address %}
+            |
+            {% endif %}
+
+            {% if site.email_address %}
+            <a href="mailto:{{ site.email_address }}">
+                email
+            </a>
+            {% endif %}
+
+        </div>
+    </div>
+
+    <div class="mt-24 mb-96 space-y-4 bg-slate-100 rounded-lg">
+        <div class="py-4 px-6">
+            <div class="text-2xl">
+                Comming this Fall 2024
+            </div>
+
+            <a class="text-base font-semibold" href="{{ site.baseurl }}/announcment/">
+                Read Annauncement
+            </a>
+        </div>
     </div>
 </div>

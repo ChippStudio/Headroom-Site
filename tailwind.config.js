@@ -1,8 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './**/*.html',
-    './node_modules/tw-elements/dist/js/**/*.js'
+    './**/*.{html,js}',
   ],
   theme: {
     extend: {
@@ -13,9 +12,6 @@ module.exports = {
         'dark-accent': '#0D5EB6',
       },
     },
-  },
-  plugins: [
-    require("tw-elements/dist/plugin.cjs"),
-  ],
+  }
 }
 
