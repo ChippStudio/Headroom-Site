@@ -1,66 +1,68 @@
-<footer class="space-y-4 py-4 text-center items-center bg-headroom mx-auto">
-		{% if site.your_name %}
-		<p class=" text-light-text">Made by {% if site.your_link %}<a class="text-dark-accent" href="{{ site.your_link }}">{% endif %}{{
-		site.your_name
-		}}{% if site.your_link %}</a>{% endif %}{% if site.your_city %} in {{ site.your_city }}{% endif %}</p>
-	{% endif %}
-	<div>
+<footer class="space-y-4 py-4 text-center items-center mx-auto mt-12">
+	Created with ❤️ in Estonia {% if site.your_link %} by <a class="text-dark-accent" href="{{ site.your_link }}">Chipp Studio</a>{% endif %}
+	
+	<div class="text-sm font-semibold">
 		{% if site.facebook_username %}
 		<a href="https://facebook.com/{{ site.facebook_username }}">
-			<span class="fa-stack fa-1x">
-				<i class="socialIconBack fas fa-circle fa-stack-2x text-light-text"></i>
-				<i class="socialIconTop fab fa-facebook fa-stack-1x text-headroom"></i>
-			</span>
+			Facebook |
 		</a>
+		{% endif %}
+
+		{% if site.facebook_username and (site.twitter_username or site.mastodon_link or site.instagram_username or
+		site.github_username or site.email_address) %}
+		|
 		{% endif %}
 
 		{% if site.twitter_username %}
 		<a href="https://twitter.com/{{ site.twitter_username }}">
-			<span class="fa-stack fa-1x">
-				<i class="socialIconBack fas fa-circle fa-stack-2x text-light-text"></i>
-				<i class="socialIconTop fab fa-twitter fa-stack-1x text-headroom"></i>
-			</span>
+			X (Twitter)
 		</a>
+		{% endif %}
+
+		{% if site.twitter_username and (site.mastodon_link or site.instagram_username or site.github_username or
+		site.email_address) %}
+		|
 		{% endif %}
 
 		{% if site.mastodon_link %}
 		<a href="https://{{ site.mastodon_link }}">
-			<span class="fa-stack fa-1x">
-				<i class="socialIconBack fas fa-circle fa-stack-2x text-light-text"></i>
-				<i class="socialIconTop fab fa-mastodon fa-stack-1x text-headroom"></i>
-			</span>
+			Mastadon
 		</a>
+		{% endif %}
+
+		{% if site.mastodon_link and (site.instagram_username or site.github_username or site.email_address) %}
+		|
 		{% endif %}
 
 		{% if site.instagram_username %}
 		<a href="https://instagram.com/{{ site.instagram_username }}">
-			<span class="fa-stack fa-1x">
-				<i class="socialIconBack fas fa-circle fa-stack-2x text-light-text"></i>
-				<i class="socialIconTop fab fa-instagram fa-stack-1x text-headroom"></i>
-			</span>
+			Instagram
 		</a>
+		{% endif %}
+
+		{% if site.instagram_username and (site.github_username or site.email_address) %}
+		|
 		{% endif %}
 
 		{% if site.github_username %}
 		<a href="https://github.com/{{ site.github_username }}">
-			<span class="fa-stack fa-1x">
-				<i class="socialIconBack fas fa-circle fa-stack-2x text-light-text"></i>
-				<i class="socialIconTop fab fa-github fa-stack-1x text-headroom"></i>
-			</span>
+			GitHub
 		</a>
+		{% endif %}
+
+		{% if site.github_username and site.email_address %}
+		|
 		{% endif %}
 
 		{% if site.email_address %}
 		<a href="mailto:{{ site.email_address }}">
-			<span class="fa-stack fa-1x">
-				<i class="socialIconBack fas fa-circle fa-stack-2x text-light-text"></i>
-				<i class="socialIconTop fas fa-envelope fa-stack-1x text-headroom"></i>
-			</span>
+			Write email
 		</a>
 		{% endif %}
 
 	</div>
-	<div class="text-light-text space-x-6">
+
+	<div class="space-x-4">
 		{% for page in site.pages %}
 		<a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
 		{% endfor %}
