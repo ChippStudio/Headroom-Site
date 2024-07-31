@@ -4,30 +4,28 @@ title: Announcement
 include_in_header: true
 ---
 
+From the inception of our idea, our mission and goal have been to create the best and simplest tool for podcasters. After several attempts, rebuilds, and redesigns, we have finally found a concept we are thrilled with. I am happy to announce Headroom, the macOS app for podcasters. With Headroom, you can create podcasts and manage the entire process from ideation to publishing. Inspired by industry-leading applications like Final Cut Pro and DaVinci Resolve, we developed Headroom with a similar attention to detail and functionality. The app is organized into several key components:
 
-![](/images/chapter_view.png)
+### Scripting
+In the early stages of an episode, you often start with just an idea. Headroom helps you structure these ideas, prepare topics, draft questions for interviews, and create notes for research, ensuring you craft the best story possible.
 
-From the time when the idea was born, our mission and goal was to create the best and simple tool for podcasters. After couple attempts and many rebuilding and redesigns, we have finally found the concept what we are happy for. I happy to announce Headroom, the MacOS app for podcasters. With Headroom you can create podcasts, record episodes from idea to publishing. With the references on the industry leaders applications like Final Cut Pro and DaVinci Resolve we have developed Headroom with the same concepts in mind. This is because we split the application by several parts.
+### Recording
+Podcasting is fundamentally about storytelling through audio. With Headroom, you can record the main content and add additional elements during the editing process.
 
-Scripting
-On the early stage of episode we usually have only idea, and we need structure them and prepare topics, questions for interview or story. Create notes and do research, for create best story.
+### Editing
+Combine all elements into the final episode, including background music, promotions, and smooth audio transitions between chapters. Edit and polish the recorded audio with our user-friendly tools, ensuring a professional finish.
 
-Recording
-Podcasting is an audio format of story telling. With Headroom you can record main content, record some elements after in editing process.
+### Transcription
+While podcasts are primarily an audio medium, having a text version of episodes is crucial for SEO optimization and expanding your reach. Headroom provides seamless transcription features to help you tap into additional distribution channels.
 
-Editing
-Compile all elements in final episode. Background music, promotions or some nice audio transitions between chapters. Edit and fix recorded audio or recompile the whole story with easy to use audio ending tool. 
+### Podcast Management
+Podcasters often face routine tasks with each episode, such as filling in metadata, marking chapters, and writing show notes. Headroom automates many of these tasks, saving you time and effort.
 
-Transcription
-As we mentioned before, podcasts are audio story telling format, but it does not mean that podcasters do not need to have text versions of episodes. It needed for SEO optimisation, additional distribution channels and etc
+### Publishing
+Once all the work is complete, it's time to export and publish your final product. You can export each component individually or publish them directly from Headroom.
 
-Podcast
-Podcaster have to do a lot of routine TODOs with each episodes, fill meta information about show, mark chapters, fill show notes and more. Headroom allow podcaster automate most of all those jobs.
+---
 
-Publishing
-After all work what was done, it’s finally time to export the final result and publish for listeners. You can export all elements one by one and publish them later. Or upload and publish elements directly from Headroom.
+These are just the foundational features of Headroom. The app offers much more, yet remains intuitive for both beginners and professionals alike.
 
-This is only base principles Headroom is much bigger then those 6 elements, but it still simple tool for beginner and professionals podcaster.
-
-Headroom will be available later this fall. 
-Subscribe for our news letter to get all updates and be the first user of Headroom.
+**Headroom will be available later this fall.** Subscribe to our newsletter to receive updates and be among the first to use Headroom.

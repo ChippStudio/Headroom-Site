@@ -4,12 +4,12 @@
 	<div class="text-sm font-semibold">
 		{% if site.facebook_username %}
 		<a href="https://facebook.com/{{ site.facebook_username }}">
-			Facebook |
+			Facebook
 		</a>
 		{% endif %}
 
 		{% if site.facebook_username and (site.twitter_username or site.mastodon_link or site.instagram_username or
-		site.github_username or site.email_address) %}
+		site.github_username or site.email_address or site.linkedin_username) %}
 		|
 		{% endif %}
 
@@ -20,7 +20,7 @@
 		{% endif %}
 
 		{% if site.twitter_username and (site.mastodon_link or site.instagram_username or site.github_username or
-		site.email_address) %}
+		site.email_address or site.linkedin_username) %}
 		|
 		{% endif %}
 
@@ -30,7 +30,7 @@
 		</a>
 		{% endif %}
 
-		{% if site.mastodon_link and (site.instagram_username or site.github_username or site.email_address) %}
+		{% if site.mastodon_link and (site.instagram_username or site.github_username or site.email_address or site.linkedin_username) %}
 		|
 		{% endif %}
 
@@ -40,7 +40,17 @@
 		</a>
 		{% endif %}
 
-		{% if site.instagram_username and (site.github_username or site.email_address) %}
+		{% if site.instagram_username and (site.github_username or site.email_address or site.linkedin_username) %}
+		|
+		{% endif %}
+
+		{% if site.linkedin_username %}
+            <a href="https://www.linkedin.com/company/{{ site.linkedin_username }}">
+                LinkedIn
+            </a>
+        {% endif %}
+
+		{% if site.linkedin_username and (site.github_username or site.email_address) %}
 		|
 		{% endif %}
 
