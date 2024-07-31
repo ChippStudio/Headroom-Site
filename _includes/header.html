@@ -1,23 +1,87 @@
-<div class="md:space-y-24 xs:space-y-12 md:pt-32 xs:pt-16 md:pb-32 xs:pb-24 px-3 text-center mx-auto">
-    <div class="xs:text-4xl md:text-6xl text-headroom font-bold text-center max-w-5xl mx-auto items-center space-x-4">
-        {{ site.header_title }}
-    </div>
-
-    <div
-        class="xs:text-xl md:text-2xl font-light text-headroom opacity-70 text-center max-w-3xl mx-auto items-center space-x-4">
-        {{ site.header_subtitle }}
-    </div>
-
-    <div class="flex mx-auto items-center space-x-4">
-        <div class="grow"></div>
-        <div class="flex grow-0 space-x-4">
-            {% for button in site.store_buttons %}
-            <a href="{{ button.link }}">
-                <img class="mx-auto items-center" src="{{ button.image | relative_url }}" alt="Download Headroom">
-            </a>
-            {% endfor %}
+<div class="md:container md:mx-auto">
+    <div class="max-w-3xl space-y-3 px-2">
+        <div class="text-text-primary text-4xl font-semibold md:text-6xl pt-16">
+            {{ site.header_title }}
         </div>
-        <div class="grow"></div>
+        <div class="text-text-secondary text-xl md:text-2xl pt-3">
+            {{ site.header_subtitle }}
+        </div>
     </div>
-    
+
+    <div class="md:flex text-center items-center mx-auto mt-16">
+        <button class="bg-sky-700 hover:bg-sky-800 rounded-full" onclick="location.href='https://9af8e8f3.sibforms.com/serve/MUIFAEzMH6uJyxFy6BVu6oJTPzcjLgQrwNUS-zSiZyzgGZSyQxmYGE6vc6ATOZHRLbRH6v7ZnyA--qRzrHpuuM2H-6LuwAQglhTARgOJme_CuYgcysLLrdJVOX7j9WBtAA0jL3eaRxfAp57MTINmzlhOiMBAN7QDZlVqqieiViJO-HSUGid65mfniuBJlKbsAAdUBJty37x-E5ye'" type="button">
+            <div class="text-lg font-semibold mx-8 my-3 text-white">Join the waiting list</div>
+        </button>
+
+        <div class="text-sm font-semibold text-text-accent md:ml-8 mt-8 md:mt-0">
+            {% if site.facebook_username %}
+            <a href="https://facebook.com/{{ site.facebook_username }}">
+                Facebook
+            </a>
+            {% endif %}
+
+            {% if site.facebook_username and (site.twitter_username or site.mastodon_link or site.instagram_username or site.linkedin_username or
+            site.github_username) %}
+            |
+            {% endif %}
+
+            {% if site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+                X (Twitter)
+            </a>
+            {% endif %}
+
+            {% if site.twitter_username and (site.mastodon_link or site.instagram_username or site.linkedin_username or site.github_username) %}
+            |
+            {% endif %}
+
+            {% if site.mastodon_link %}
+            <a href="https://{{ site.mastodon_link }}">
+                Mastadon
+            </a>
+            {% endif %}
+
+            {% if site.mastodon_link and (site.instagram_username or site.linkedin_username or site.github_username) %}
+            |
+            {% endif %}
+
+            {% if site.instagram_username %}
+            <a href="https://instagram.com/{{ site.instagram_username }}">
+                Instagram
+            </a>
+            {% endif %}
+
+            {% if site.instagram_username and (site.github_username or site.linkedin_username) %}
+            |
+            {% endif %}
+
+            {% if site.linkedin_username %}
+            <a href="https://www.linkedin.com/company/{{ site.linkedin_username }}">
+                LinkedIn
+            </a>
+            {% endif %}
+
+            {% if site.linkedin_username and (site.github_username) %}
+            |
+            {% endif %}
+
+            {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}">
+                GitHub
+            </a>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="mt-12 md:mt-24 space-y-4 bg-slate-100 rounded-lg">
+        <div class="py-4 px-6">
+            <div class="text-2xl">
+                Coming this Fall
+            </div>
+
+            <a class="text-text-dark-accent text-base font-semibold" href="{{ site.baseurl }}/announcment/">
+                Read Annauncement
+            </a>
+        </div>
+    </div>
 </div>

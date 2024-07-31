@@ -1,21 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './**/*.html',
-    './node_modules/tw-elements/dist/js/**/*.js'
+    './**/*.{html,js}',
   ],
   theme: {
     extend: {
       colors: {
-        'headroom': '#023047',
-        'light-text': '#FCFBFC',
-        'accent': '#1383FF',
-        'dark-accent': '#0D5EB6',
+        'text-primary': '#111828',
+        'text-secondary': '#64748B',
+        'text-subelement': '#475569',
+        'text-accent': '#5169B1',
+        'text-dark-accent': '#0369A1',
       },
     },
-  },
-  plugins: [
-    require("tw-elements/dist/plugin.cjs"),
-  ],
+  }
 }
 
