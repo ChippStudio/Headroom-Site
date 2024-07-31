@@ -4,6 +4,8 @@ title: Announcement
 include_in_header: true
 ---
 
+![](/images/chapter_view.png)
+
 From the inception of our idea, our mission and goal have been to create the best and simplest tool for podcasters. After several attempts, rebuilds, and redesigns, we have finally found a concept we are thrilled with. I am happy to announce Headroom, the macOS app for podcasters. With Headroom, you can create podcasts and manage the entire process from ideation to publishing. Inspired by industry-leading applications like Final Cut Pro and DaVinci Resolve, we developed Headroom with a similar attention to detail and functionality. The app is organized into several key components:
 
 ### Scripting
