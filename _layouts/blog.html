@@ -11,7 +11,7 @@
   <div class="flex-grow">
     <div class="container mx-auto">
 
-      <div class="grid justify-items-center">
+      <div class="grid justify-items-center px-2">
 
         <div class="my-16 text-center">
           <div class="text-4xl font-bold">
@@ -25,9 +25,9 @@
         <div class="rounded-md bg-slate-200">
           {% for post in site.posts limit:1 %}
           <a href="{{ post.url }}">
-            <div class="flex max-w-3xl">
+            <div class="md:flex max-w-3xl">
               <div>
-                <img class="inline rounded-md max-w-60" src="{{site.baseurl}}/images/blog/{{ post.cover }}" alt="...">
+                <img class="inline rounded-md md:max-w-60" src="{{site.baseurl}}/images/blog/{{ post.cover }}" alt="...">
               </div>
 
               <div class="mx-3 my-3">
@@ -50,7 +50,7 @@
                   <div class="text-text-primary text-lg">{{ post.description }}</div>
                   <div class="text-text-subelement text-sm">{{ post.date | date: "%B %d, %Y" }}</div>
                 </div>
-                <div>
+                <div class="max-md:hidden">
                   <img class="inline rounded-md max-w-44" src="{{site.baseurl}}/images/blog/{{ post.cover }}" alt="...">
                 </div>
               </div>
