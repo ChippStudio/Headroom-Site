@@ -1,0 +1,32 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+{% include navbar.html %}
+
+<body class="min-h-screen flex flex-col">
+    -- Blog post here
+    <div class="container items-center mx-auto md:max-w-4xl xs:max-w-2xl py-10 px-6 flex-grow">
+        <article class="page markdown-body">
+            {{ content }}
+        </article>
+
+        <div class="bg-slate-100 rounded-lg mt-8">
+            <div class="py-6 px-4">
+                <div class="md:flex justify-between text-center items-center mt-auto">
+                    <div class="text-2xl text-semibold pb-6 md:pb-0">Coming this Fall</div>
+                    <button class="bg-sky-700 hover:bg-sky-800 rounded-full" onclick="location.href='https://9af8e8f3.sibforms.com/serve/MUIFAEzMH6uJyxFy6BVu6oJTPzcjLgQrwNUS-zSiZyzgGZSyQxmYGE6vc6ATOZHRLbRH6v7ZnyA--qRzrHpuuM2H-6LuwAQglhTARgOJme_CuYgcysLLrdJVOX7j9WBtAA0jL3eaRxfAp57MTINmzlhOiMBAN7QDZlVqqieiViJO-HSUGid65mfniuBJlKbsAAdUBJty37x-E5ye'" type="button">
+                        <div class="text-lg font-semibold mx-8 my-3 text-white">Join the waiting list</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include footer.html %}
+</body>
+</html>
