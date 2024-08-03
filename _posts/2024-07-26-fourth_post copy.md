@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Second announcement post
-description: 2. Small announcements of the Headroom project. All what you need to know about it.
+title: Fourth announcement post
+description: 4. Small announcements of the Headroom project. All what you need to know about it.
 cover: post-cover-image.jpg
 ---
 

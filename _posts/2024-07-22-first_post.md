@@ -1,8 +1,8 @@
 ---
 layout: post
 title: First announcement post
-description: Small announcements of the Headroom project. All what you need to know about it.
-cover: first_blog_cover.png
+description: 1. Small announcements of the Headroom project. All what you need to know about it.
+cover: post-cover-image.jpg
 ---
 
 ## Blog post Title
