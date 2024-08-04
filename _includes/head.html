@@ -5,7 +5,7 @@
 	<base target="_blank">
 
 	<title class="pageTitle">{{ site.page_title }}</title>
-	
+
 	<!-- Meta tags -->
 	<meta name="description" content="{{ site.description }}">
 	<meta name="keywords" content="{{ site.keywords }}" />
@@ -23,7 +23,7 @@
 	<meta name="twitter:image" content="Image URL Here">
 
 	<meta name="author" content="{{ site.your_name }}">
-	<meta name="copyright" content="{{ site.app_icon | relative_url }}">	
+	<meta name="copyright" content="{{ site.app_icon | relative_url }}">
 
 	<link rel="shortcut icon" href="{{ site.app_icon | relative_url }}">
 	<link rel="canonical" href="https://headroom.ee">
@@ -38,13 +38,23 @@
 	<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
 	<link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
 
-	<!-- Google tag (gtag.js) -->
+	<!-- Google Tag Manager -->
+	<script>(function (w, d, s, l, i) {
+			w[l] = w[l] || []; w[l].push({
+				'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+			}); var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-T5Q3265X');</script>
+	<!-- End Google Tag Manager -->
+
+	<!-- Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-TRY564FDP3"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
-
 		gtag('config', 'G-TRY564FDP3');
 	</script>
 </head>
