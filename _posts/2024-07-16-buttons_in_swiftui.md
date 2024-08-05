@@ -2,6 +2,7 @@
 layout: post
 title: Crafting buttons in SwiftUI
 description: Buttons are the primary interactive elements in an application. They are a key way to understand your users' needs. Let's create responsive and easy-to-use buttons.
+permalink: /blog/posts/:title
 cover: buttons_in_swiftui.png
 ---
 
