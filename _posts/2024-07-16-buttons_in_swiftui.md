@@ -59,6 +59,8 @@ struct HeadroomScaleButton: ButtonStyle {
 }
 ```
 
+[More about button styles](https://developer.apple.com/documentation/swiftui/buttonstyle)
+
 To use this style, apply a modifier to override the button's default style with your custom style.
 
 ``` swift

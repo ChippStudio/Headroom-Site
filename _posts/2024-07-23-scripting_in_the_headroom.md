@@ -20,6 +20,8 @@ Not every podcast requires the same level of preparation. For some, a few notes 
 
 The core component of scripting in Headroom is the block. A block can contain different types of content, which are displayed in the teleprompter during recording. Depending on your needs, you can customize what information appears and how it's styled.
 
+![](/images/blog/posts/script_headroom_interface.png)
+
 **Key Block Types**
 
 **Title:** Marks the beginning of a section, such as an introduction or a main segment.
