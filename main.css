@@ -805,6 +805,10 @@ video {
   margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.text-balance {
+  text-wrap: balance;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
