@@ -1103,6 +1103,10 @@ video {
     max-width: 28rem;
   }
 
+  .md\:max-w-4 {
+    max-width: 1rem;
+  }
+
   .md\:justify-between {
     justify-content: space-between;
   }
