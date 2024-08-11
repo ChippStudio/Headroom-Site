@@ -40,9 +40,9 @@
           {% endfor %}
         </div>
 
-        <ul class="space-y-16 mt-16">
+        <div class="space-y-16 mt-16">
           {% for post in site.posts offset:1 %}
-          <li>
+          <div>
             <a href="{{ post.url }}">
               <div class="flex mx-auto space-x-16">
                 <div class="space-y-3 max-w-2xl">
@@ -55,9 +55,9 @@
                 </div>
               </div>
             </a>
-          </li>
+          </div>
           {% endfor %}
-        </ul>
+        </div>
       </div>
     </div>
   </div>
