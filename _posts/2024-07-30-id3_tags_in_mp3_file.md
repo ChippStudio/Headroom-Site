@@ -3,7 +3,8 @@ layout: post
 title: ID3 Tags in your episode
 description: Metadata is required in your MP3 file. With these ID3 tags, you can instruct podcast players on how to present your show to listeners.
 permalink: /blog/posts/:title
-cover: id3_tags_podcast_player.png
+cover: id3_tags_podcast_player
+keywords: Podcast metadata, ID3 tags for podcasts, MP3 file metadata, Podcast episode tags, Headroom ID3 tags, Podcast artwork tips, How to add chapters to podcasts, Podcast show notes optimization, Podcast RSS feed integration, Enhance podcast listener experience, Podcast file preparation, Best podcast tagging tools, Podcast chapter tags, Podcast marketing tips, Podcast search optimization
 ---
 
 ![](/images/blog/posts/id3_tags_podcast_player_cover.png)
