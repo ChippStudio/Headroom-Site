@@ -1,13 +1,12 @@
 ---
 layout: post
+author: Konstantin Tšistjakov
 title: Templates in podcasts, show notes and scripts.
 description: Many routine tasks involved in podcast creation can be avoided with Headroom. Use templates for ID3 tags, show note segments, or even scripts.
 permalink: /blog/posts/:title
 cover: templates_in_podcasts
 keywords: Podcast automation tools, Headroom app features, Podcast templates, Show notes templates, Podcast workflow optimization, ID3 tags for podcasts, Podcast episode metadata, Podcast scripting templates, Automate podcast production, Best podcasting software, How to create show notes, Podcast AI assistant, Podcast RSS feed integration, Streamline podcast creation, Podcast content management
 ---
-
-![](/images/blog/posts/templates_in_podcasts_cover.png)
 
 From the beginning, we understood that automation is key, and we introduced Headroom. Besides dealing with technical aspects, podcast creators also have to manage a lot of additional tasks. Our vision for Headroom is to be the tool that handles many technical and routine actions, allowing creators to focus on their content and share their passion with listeners. We all know that routine can kill creativity.
 

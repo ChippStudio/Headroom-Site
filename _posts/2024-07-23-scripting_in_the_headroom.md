@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Konstantin Tšistjakov
 title: Scripting. Be ready for recording with Headroom
 description: Preparation is a crucial part of the show. Sometimes you only need notes, while other times you may require a full script of what you'll read during the recording, or perhaps a combination of both.
 permalink: /blog/posts/:title
@@ -7,11 +8,15 @@ cover: scripting_in_the_headroom
 keywords: Podcast script preparation, Headroom podcasting app, Podcast scripting tools, Podcast script templates, AI-assisted podcast scripts, How to create podcast scripts, Teleprompter for podcasts, Podcast script blocks, Podcast content planning, Best podcasting tools, Podcast preparation tips, Headroom AI assistant, Podcast script writing, Create podcast episodes, Podcast recording preparation
 ---
 
-![](/images/blog/posts/scripting_in_the_headroom_cover.png)
-
 ## Be Ready for Your Recording
 
-Welcome to the first article in our series exploring the functionalities of Headroom, the podcast creation app designed to make podcasting fun and easy. Today, we're focusing on the scripting features that help you prepare for your recordings.
+Welcome to the first article in our series exploring the functionalities of Headroom, the podcast creation app designed to make podcasting fun and easy.
+
+Full list of articles:
+1. Scripting. Be ready for recording with Headroom : This Article
+2. [Recording audio. Teleprompter and more](/blog/posts/recording_audio)
+
+Today, we're focusing on the scripting features that help you prepare for your recordings.
 
 ## Script Preparation for Different Podcast Styles
 

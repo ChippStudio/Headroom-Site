@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Konstantin Tšistjakov
 title: Recording audio. Teleprompter and more
 description: Headroom enhances your podcast recording by providing teleprompter features, flexible recording options, and continuous file-saving to ensure a professional and efficient workflow.
 permalink: /blog/posts/:title
@@ -7,11 +8,11 @@ cover: recording_audio
 keywords: Best podcast recording software, How to record a podcast, Podcasting tips for beginners, Headroom app review, Teleprompter for podcasters, Improve podcast audio quality, Podcast scripting tools, Audio editing software for podcasts, Podcast preparation guide, Efficient podcast workflow
 ---
 
-![](/images/blog/posts/recording_audio_cover.png)
-
 We continue to describe the functionality of Headroom. Previously, we discussed scripting and how it can help you prepare for your show. Now, let’s move forward—it's time to record your show.
 
 Full list of articles:
+1. [Scripting. Be ready for recording with Headroom](/blog/posts/scripting_in_the_headroom)
+2. Recording audio. Teleprompter and more : This Article
 
 
 ## Recording Environment: Essential Software and How Headroom Can Help
@@ -27,6 +28,8 @@ Ensure your room is free from echo and external noise. While software can help, 
 The quality of your microphone, sound card, and mixers all contribute to your final audio. Investing in good hardware is key.
 
 #### Software Support
+
+![](/images/blog/posts/record.png)
 
 The software you use to record and save your audio files also plays a vital role. This is where Headroom steps in, offering tools that go beyond simple recording.
 
@@ -55,6 +58,12 @@ This flexibility ensures you’re fully equipped to deliver your best performanc
 Headroom simplifies the recording process by allowing you to start, stop, pause, and save recordings in separate files. The app lets you select input and output sources directly, transforming your space into a professional recording studio.
 
 Your recordings are continuously saved to your local disk, so even if something goes wrong—a power outage or technical glitch—you won’t lose your work.
+
+### Focus Mode
+
+![](/images/blog/posts/record_focus_mode.png)
+
+Avoiding distractions while recording is more important than you might imagine. That's why we've introduced a special Focus Mode. This mode hides all distracting information from your recording environment, helping you stay focused.
 
 ## Stay Tuned!
 Headroom is evolving, and new features are on the horizon. Join our waiting list and follow us on social media to stay updated. The release is coming soon, and we can’t wait to share it with you!

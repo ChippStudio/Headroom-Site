@@ -1,13 +1,12 @@
 ---
 layout: post
+author: Konstantin Tšistjakov
 title: Crafting buttons in SwiftUI
 description: Buttons are the primary interactive elements in an application. They are a key way to understand your users' needs. Let's create responsive and easy-to-use buttons.
 permalink: /blog/posts/:title
 cover: buttons_in_swiftui
 keywords: SwiftUI button customization, SwiftUI button styles, How to create buttons in SwiftUI, SwiftUI onTapGesture, Custom button styles in SwiftUI, SwiftUI button animation, SwiftUI button hover effects, SwiftUI environment values, ButtonStyle protocol in SwiftUI, Custom view modifiers in SwiftUI, SwiftUI interaction feedback, SwiftUI button color change, SwiftUI app development, SwiftUI user interface customization, SwiftUI button examples
 ---
-
-![](/images/blog/covers/buttons_in_swiftui.png)
 
 ## Default Ways to Create Buttons in SwiftUI
 
