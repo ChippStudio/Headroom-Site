@@ -14,7 +14,7 @@
 			<div class="flex mx-auto space-x-4">
 				{% for page in site.pages %}
 				{% if page.include_in_header == true %}
-				<a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
+				<a class="hover:bg-slate-100 px-3 py-1 rounded-md" href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
 				{% endif %}
 				{% endfor %}
 				{% if site.presskit_download_link %}

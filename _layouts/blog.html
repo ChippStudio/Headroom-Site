@@ -24,7 +24,7 @@
 
         <div class="rounded-md bg-slate-100">
           {% for post in site.posts limit:1 %}
-          <a href="{{ post.url }}">
+          <a target="_self" href="{{ post.url }}">
             <div class="md:flex max-w-4xl">
               <div>
                 <img class="inline rounded-md md:max-w-96" src="{{site.baseurl}}/images/blog/covers/{{ post.cover }}.png" alt="...">
@@ -43,7 +43,7 @@
         <div class="space-y-16 mt-16">
           {% for post in site.posts offset:1 %}
           <div>
-            <a href="{{ post.url }}">
+            <a target="_self" href="{{ post.url }}">
               <div class="flex mx-auto space-x-16">
                 <div class="space-y-3 max-w-2xl">
                   <div class="text-text-primary text-2xl font-semibold">{{ post.title }}</div>
