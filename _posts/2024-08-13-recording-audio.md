@@ -13,6 +13,7 @@ We continue to describe the functionality of Headroom. Previously, we discussed 
 Full list of articles:
 1. [Scripting. Be ready for recording with Headroom](/blog/posts/scripting_in_the_headroom)
 2. Recording audio. Teleprompter and more : This Article
+3. [Episode building, editing and formatting](/blog/posts/episode-building)
 
 
 ## Recording Environment: Essential Software and How Headroom Can Help
