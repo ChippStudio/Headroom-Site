@@ -39,4 +39,4 @@ Once all the work is complete, it's time to export and publish your final produc
 
 These are just the foundational features of Headroom. The app offers much more, yet remains intuitive for both beginners and professionals alike.
 
-**Headroom will be available later this fall.** Subscribe to our newsletter to receive updates and be among the first to use Headroom.
+**Headroom will be available in early 2025.** Subscribe to our newsletter to receive updates and be among the first to use Headroom.
