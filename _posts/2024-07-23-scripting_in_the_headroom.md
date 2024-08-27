@@ -16,6 +16,7 @@ Full list of articles:
 1. Scripting. Be ready for recording with Headroom : This Article
 2. [Recording audio. Teleprompter and more](/blog/posts/recording-audio)
 3. [Episode building, editing and formatting](/blog/posts/episode-building)
+4. [Transcription. Transform audio into text](/blog/posts/episode-transcription)
 
 Today, we're focusing on the scripting features that help you prepare for your recordings.
 
