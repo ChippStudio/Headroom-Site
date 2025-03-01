@@ -1,102 +1,30 @@
-<div class="md:container md:mx-auto">
-    <div class="md:flex pt-16 md:justify-between">
+<div class="md:container mx-auto">
+    <div class="pt-16 flex justify-center text-center">
         <div>
             <div class="max-w-3xl space-y-3 px-2">
+                <div class="text-text-subelement text-sm pt-3">
+                    Headroom the app for podcast publishing
+                </div>
+
+                <div class="flex justify-center text-center">
+                    <img class="md:max-w-3xs object-scale-down" src="{{ site.baseurl | relative_url }}/images/headroom_header_icon.png">
+                </div>
+
                 <div class="text-text-primary text-4xl font-semibold md:text-6xl">
-                    {{ site.header_title }}
+                    Transcribe, Generate Metadata, and Publish<br>All in One App.
                 </div>
                 <div class="text-text-secondary text-xl md:text-2xl pt-3">
-                    {{ site.header_subtitle }}
+                    Headroom transforms your audio into structured, ready-to-publish content. Import audio, get AI-powered transcriptions, generate episode titles, descriptions, and show notes, and publish effortlessly—all from one powerful macOS app.
+                </div>
+                <div class="text-text-subelement text-sm pt-3">
+                    One tool for all your shows
                 </div>
             </div>
 
-            <div class="md:flex text-center items-center mx-auto mt-16">
-                <button class="bg-sky-700 hover:bg-sky-800 rounded-full"
-                    onclick="location.href='https://9af8e8f3.sibforms.com/serve/MUIFAKr5em9qKXDH3qLLAbvgl6gR1A4ybQ798LyIYzr9aii6RKNtxFJSBb9535e5dYg8Bm9OEStD9FsY7LuAMcYHnxyHVu0vJuTdl-X03NKRz5DkQT2LVl1klMJLKugEXJN7x1Zb3qQ7uSiNalOM8AUH4h3pypYFmouek534K3_jRWdFiYhX8Hl3kYo92W3EKyrFvFFLxGmK6Z1V'"
-                    type="button">
-                    <div class="text-lg font-semibold mx-8 my-3 text-white">Join the waiting list</div>
-                </button>
-
-                <div class="text-sm font-semibold text-text-accent md:ml-8 mt-8 md:mt-0">
-                    {% if site.facebook_username %}
-                    <a href="https://facebook.com/{{ site.facebook_username }}">
-                        Facebook
-                    </a>
-                    {% endif %}
-
-                    {% if site.facebook_username and (site.twitter_username or site.mastodon_link or
-                    site.instagram_username or
-                    site.linkedin_username or
-                    site.github_username) %}
-                    |
-                    {% endif %}
-
-                    {% if site.twitter_username %}
-                    <a href="https://twitter.com/{{ site.twitter_username }}">
-                        X (Twitter)
-                    </a>
-                    {% endif %}
-
-                    {% if site.twitter_username and (site.mastodon_link or site.instagram_username or
-                    site.linkedin_username or
-                    site.github_username) %}
-                    |
-                    {% endif %}
-
-                    {% if site.mastodon_link %}
-                    <a href="https://{{ site.mastodon_link }}">
-                        Mastadon
-                    </a>
-                    {% endif %}
-
-                    {% if site.mastodon_link and (site.instagram_username or site.linkedin_username or
-                    site.github_username) %}
-                    |
-                    {% endif %}
-
-                    {% if site.instagram_username %}
-                    <a href="https://instagram.com/{{ site.instagram_username }}">
-                        Instagram
-                    </a>
-                    {% endif %}
-
-                    {% if site.instagram_username and (site.github_username or site.linkedin_username) %}
-                    |
-                    {% endif %}
-
-                    {% if site.linkedin_username %}
-                    <a href="https://www.linkedin.com/company/{{ site.linkedin_username }}">
-                        LinkedIn
-                    </a>
-                    {% endif %}
-
-                    {% if site.linkedin_username and (site.github_username) %}
-                    |
-                    {% endif %}
-
-                    {% if site.github_username %}
-                    <a href="https://github.com/{{ site.github_username }}">
-                        GitHub
-                    </a>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
-
-        <div class="pt-10 md:pt-0 px-2">
-            <img class="md:max-w-2xl object-scale-down" src="{{ site.baseurl | relative_url }}/images/app_full.png">
-        </div>
-    </div>
-
-    <div class="mt-12 md:mt-24 space-y-4 bg-slate-100 rounded-lg">
-        <div class="py-4 px-6">
-            <div class="text-2xl">
-                Launching in early 2025
+            <div class="flex justify-center text-center">
+                <img class="md:max-w-2xl object-scale-down" src="{{ site.baseurl | relative_url }}/images/headroom_welcome_screenshot.png">
             </div>
 
-            <a class="text-text-dark-accent text-base font-semibold" href="{{ site.baseurl }}/announcement/">
-                Read Annauncement
-            </a>
         </div>
     </div>
 </div>
