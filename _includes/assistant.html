@@ -1,0 +1,72 @@
+<div class="bg-slate-800">
+    <div class="container mx-auto px-2 md:px-16 py-16">
+        <div class="text-slate-100 font-bold text-4xl">
+            Headroom’s AI Assistant<br>Your Smart Podcasting Companion
+        </div>
+        <div class="text-slate-100 text-lg font-semibold max-w-3xl pt-6">
+            Headroom’s AI Assistant does more than just transcription—it transforms your audio into structured,
+            ready-to-publish content. Automatically generate episode titles, descriptions, and show notes, refine
+            spelling and grammar, translate into multiple languages, summarize key points, and optimize discoverability
+            with AI-powered keyword tagging. All of this happens instantly, giving you high-quality results
+        </div>
+        <div class="text-slate-400 font-semibold text-lg pt-6">
+            All of this—instantly, with just one click
+        </div>
+
+        <div x-data="{ selectedTab: 'transcription' }">
+    
+            <!-- Top Image -->
+            <div class="flex justify-center items-center">
+                <div>
+                    <img class="object-scale-down pt-5"
+                        :src="selectedTab === 'transcription' ? '{{ site.baseurl | relative_url }}/images/macbook_placeholder.png' :
+                              selectedTab === 'episode' ? '{{ site.baseurl | relative_url }}/images/macbook_placeholder.png' :
+                              '{{ site.baseurl | relative_url }}/images/macbook_placeholder.png'">
+                </div>
+            </div>
+        
+            <!-- Tab Bar -->
+            <div class="flex justify-center pt-24 gap-7">
+                <div @click="selectedTab = 'transcription'" class="text-xl font-black cursor-pointer"
+                    :class="selectedTab === 'transcription' ? 'underline text-sky-600' : 'text-slate-100'">
+                    Transcription
+                </div>
+                <div @click="selectedTab = 'episode'" class="text-xl font-black cursor-pointer"
+                    :class="selectedTab === 'episode' ? 'underline text-sky-600' : 'text-slate-100'">
+                    Episode
+                </div>
+                <div @click="selectedTab = 'chapters'" class="text-xl font-black cursor-pointer"
+                    :class="selectedTab === 'chapters' ? 'underline text-sky-600' : 'text-slate-100'">
+                    Chapters
+                </div>
+            </div>
+        
+            <!-- Content Section -->
+            <div class="grid place-items-center">
+                <div class="text-slate-100 text-lg max-w-3xl pt-6 text-center">
+                    
+                    <!-- Transcription Content -->
+                    <div x-show="selectedTab === 'transcription'">
+                        Headroom’s AI-powered transcription converts your spoken words into accurate, structured text using the
+                        advanced Whisper model. Perfect for podcasting, interviews, and content creation, transcriptions are
+                        formatted for easy editing and can be used directly in Apple Podcasts. Effortlessly capture every word,
+                        refine the text, and ensure clarity with built-in spelling and grammar enhancements. With multilingual
+                        support and AI-driven accuracy, turning speech into text has never been easier.
+                    </div>
+        
+                    <!-- Episode Content -->
+                    <div x-show="selectedTab === 'episode'">
+                        Generate episode metadata instantly with Headroom’s AI Assistant. Create compelling titles, engaging descriptions, and structured show notes tailored to your content. Designed to enhance discoverability and listener engagement, the AI ensures your episode is well-organized and optimized for podcast directories. With intelligent text refinement and formatting, every episode gets a polished, professional presentation—ready for distribution with minimal effort.
+                    </div>
+        
+                    <!-- Chapters Content -->
+                    <div x-show="selectedTab === 'chapters'">
+                        Automatically generate precise episode chapters to enhance navigation and listener experience. Headroom’s AI identifies key moments in your audio, segments them into structured chapters, and provides timestamped summaries. Whether for long-form podcasts, interviews, or educational content, chapters make it easy for audiences to jump between topics. Improve accessibility, keep listeners engaged, and add a professional touch to every episode—all with a single click.
+                    </div>
+        
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</div>
