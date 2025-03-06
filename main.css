@@ -1,4 +1,4 @@
-/*! tailwindcss v4.0.9 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v4.0.10 | MIT License | https://tailwindcss.com */
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -205,14 +205,8 @@
   }
 }
 @layer utilities {
-  .collapse {
-    visibility: collapse;
-  }
   .invisible {
     visibility: hidden;
-  }
-  .visible {
-    visibility: visible;
   }
   .absolute {
     position: absolute;
@@ -231,9 +225,6 @@
   }
   .float-left {
     float: left;
-  }
-  .float-right {
-    float: right;
   }
   .container {
     width: 100%;
@@ -283,9 +274,6 @@
   .mt-auto {
     margin-top: auto;
   }
-  .mr-2 {
-    margin-right: calc(var(--spacing) * 2);
-  }
   .block {
     display: block;
   }
@@ -298,17 +286,8 @@
   .grid {
     display: grid;
   }
-  .hidden {
-    display: none;
-  }
   .inline {
     display: inline;
-  }
-  .inline-flex {
-    display: inline-flex;
-  }
-  .list-item {
-    display: list-item;
   }
   .table {
     display: table;
@@ -390,9 +369,6 @@
   }
   .items-start {
     align-items: flex-start;
-  }
-  .justify-around {
-    justify-content: space-around;
   }
   .justify-between {
     justify-content: space-between;
@@ -625,9 +601,6 @@
   }
   .text-sky-600 {
     color: var(--color-sky-600);
-  }
-  .text-sky-700 {
-    color: var(--color-sky-700);
   }
   .text-slate-100 {
     color: var(--color-slate-100);
