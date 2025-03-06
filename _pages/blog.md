@@ -1,6 +1,6 @@
 ---
-layout: blog
-title: Blog
+layout: updates
+title: Updates
 include_in_header: true
-permalink: /blog/
+permalink: /updates/
 ---
