@@ -1,0 +1,66 @@
+<div>
+    <div class="text-center text-slate-600 font-bold text-2xl pt-12">
+        Follow for Updates
+    </div>
+
+    <div class="flex justify-center items-center">
+        <div class="text-4xl text-slate-500 font-semibold pt-4">
+            {% if site.facebook_username %}
+            <a href="https://facebook.com/{{ site.facebook_username }}">
+                <span class="fa-stack fa-1x hover:text-slate-600">
+                    <i class="fab fa-facebook fa-stack-1x"></i>
+                </span>
+            </a>
+            {% endif %}
+
+            {% if site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+                X (Twitter)
+            </a>
+            {% endif %}
+
+            {% if site.mastodon_link %}
+            <a href="https://{{ site.mastodon_link }}">
+                Mastadon
+            </a>
+            {% endif %}
+
+            {% if site.instagram_username %}
+            <a href="https://instagram.com/{{ site.instagram_username }}">
+                Instagram
+            </a>
+            {% endif %}
+
+            {% if site.linkedin_username %}
+            <a href="https://www.linkedin.com/company/{{ site.linkedin_username }}">
+                <span class="fa-stack fa-1x hover:text-slate-600">
+                    <i class="fab fa-linkedin fa-stack-1x"></i>
+                </span>
+            </a>
+            {% endif %}
+
+            {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}">
+                GitHub
+            </a>
+            {% endif %}
+
+            <!-- {% if site.email_address %}
+            <a href="mailto:{{ site.email_address }}">
+                <span class="fa-stack fa-1x hover:text-slate-600">
+                    <i class="fas fa-envelope fa-stack-1x"></i>
+                </span>
+            </a>
+            {% endif %} -->
+
+            {% if site.newsletter %}
+            <a href="{{ site.newsletter }}">
+                <span class="fa-stack fa-1x hover:text-slate-600">
+                    <i class="fas fa-envelope fa-stack-1x"></i>
+                </span>
+            </a>
+            {% endif %}
+
+        </div>
+    </div>
+</div>

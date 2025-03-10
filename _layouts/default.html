@@ -11,21 +11,17 @@
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <div class="flex-grow">
+  <div class="grow">
     {% include header.html %}
-
-    <div class="pt-24 pb-24 space-y-24">
-      {% include details_overview.html %}
-      <div class="pt-16 space-y-24">
-        {% include details_script.html %}
-        {% include details_recording.html %}
-        {% include details_editing.html %}
-        {% include details_transcription.html %}
-        {% include details_podcast.html %}
-        {% include details_publishing.html %}
-        {% include call_to_action_block.html %}
+    {% include assistant.html %}
+    {% include publishing.html %}
+    {% include all_features.html %}
+    <div class="container mx-auto px-2 md:px-16 py-16">
+      <div class="flex justify-center items-center">
+          <img class="object-scale-down" src="{{ site.baseurl | relative_url }}/images/final_screenshot.png">
       </div>
     </div>
+    {% include social.html %}
   </div>
   {% include footer.html %}
 </body>

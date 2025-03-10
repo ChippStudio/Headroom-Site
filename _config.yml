@@ -1,32 +1,29 @@
 #page title
-page_title: 'Headroom: Podcast Studio'
+page_title: 'Headroom: Podcast Publishing Studio'
 
 # App Info
-ios_app_id: 6453882470
+ios_app_id: 
 ios_app_country: us
 
 # presskit_download_link: https://headroompublic.ams3.digitaloceanspaces.com/Headroom_PressKit.zip
 
 app_icon: images/icon.png
-app_name: 'Headroom: Podcast Studio'
+app_name: 'Headroom'
 app_price: Free
 
 # Meta tags optimisation
-description: 'Headroom: An all-in-one macOS app for preparing, producing, and publishing your podcast. With Headroom, you can automate routine tasks and focus on content creation instead of the technical aspects.'
+description: 'Headroom: An all-in-one macOS app for publishing your podcast. With Headroom, you can automate routine tasks and focus on content creation instead of the technical aspects.'
 cover: images/meta_cover.png
 keywords: ai,whisper,podcast chapters,mp3,podcast,id3 tag,audio transcription,playback,openai,artwork,ia,voice,podcast editor,podcast chapters,mp3,audio editor,chapters,id3 tags,playback,audio-to-text,artwork,Podcast Manager,Metadata Editor,MP3,Audio,Chapters,Artwork,Playback,Export,Quality,Visualize
 
 enable_smart_app_banner: false
-
-# Header
-header_title: Podcasting in the most efficient way
-header_subtitle: Headroom is one solution for podcast production, providing all that you need to record, edit, prepare, and deliver an episode.
 
 # Information About Yourself
 your_name: Chipp Studio OÜ                                
 your_link: https://chippstudio.ee                    
 your_city: Tallinn                                
 email_address: info@chippstudio.ee
+newsletter: https://9af8e8f3.sibforms.com/serve/MUIFAEzMH6uJyxFy6BVu6oJTPzcjLgQrwNUS-zSiZyzgGZSyQxmYGE6vc6ATOZHRLbRH6v7ZnyA--qRzrHpuuM2H-6LuwAQglhTARgOJme_CuYgcysLLrdJVOX7j9WBtAA0jL3eaRxfAp57MTINmzlhOiMBAN7QDZlVqqieiViJO-HSUGid65mfniuBJlKbsAAdUBJty37x-E5ye
 facebook_username: 61563619501214
 # instagram_username: headroom.podcastapp
 # twitter_username: useheadroomapp

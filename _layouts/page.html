@@ -9,12 +9,12 @@
 {% include navbar.html %}
 
 <body class="min-h-screen flex flex-col">
-    <div class="container items-center mx-auto md:max-w-4xl xs:max-w-2xl py-10 px-6 flex-grow">
+    <div class="container items-center mx-auto md:max-w-4xl xs:max-w-2xl py-10 px-6 grow">
         <article class="page markdown-body">
             {{ content }}
         </article>
 
-        {% include newsletter_banner.html %}
+        {% include social.html %}
     </div>
 
     {% include footer.html %}
