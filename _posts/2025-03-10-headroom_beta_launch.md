@@ -2,7 +2,7 @@
 layout: post
 author: Konstantin Tšistjakov
 title:  Headroom Podcast Publisher – Beta Launch!
-description: Headroom Podcast Publisher - Beta is Live! 🚀 <br> A macOS-native app that simplifies podcast publishing with AI transcription, smart metadata, and one-click export. Be among the first to try it and shape the future of podcasting!
+description: Headroom Podcast Publisher - Beta is Live! 🚀 A macOS-native app that simplifies podcast publishing with AI transcription, smart metadata, and one-click export. Be among the first to try it and shape the future of podcasting!
 permalink: /updates/posts/:title
 cover: first_beta_features_highlight
 keywords: Headroom Podcast Studio, podcast publishing app, macOS podcast app, podcast workflow, audio preparation, podcast transcription, episode editing, podcast metadata, podcast chapters, AI-driven podcast tools, podcast exporting, podcast hosting, podcast transcription tools, episode creation, macOS podcast tools, podcast automation, Headroom Podcast Publisher, audio conversion, metadata management, AI-powered podcast assistant, episode titles, show notes, podcast accessibility, podcast subtitles, podcast chapter markers, ID3 tags, loudness normalization, podcast publishing, AI podcast features, podcast SEO, macOS-native podcast app, podcast episode management, custom AI prompts, podcast service management
