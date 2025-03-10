@@ -2752,6 +2752,11 @@
       max-width: var(--container-4xl);
     }
   }
+  .md\:max-w-5xl {
+    @media (width >= 48rem) {
+      max-width: var(--container-5xl);
+    }
+  }
   .md\:max-w-72 {
     @media (width >= 48rem) {
       max-width: calc(var(--spacing) * 72);

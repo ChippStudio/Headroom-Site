@@ -5,7 +5,7 @@ include_in_header: false
 ---
 
 **Last updated**
-August 18, 2023
+March 10, 2025
 
 # Terms of Service
 
