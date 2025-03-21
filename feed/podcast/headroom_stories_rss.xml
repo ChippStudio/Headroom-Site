@@ -1,0 +1,96 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:psc="http://podlove.org/simple-chapters" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
+  <channel>
+    <title><![CDATA[Headroom Stories]]></title>
+    <description><![CDATA[Headroom Stories brings you behind the mic with creators, tools, and insights shaping the future of podcasting.]]></description>
+    <link>https://appstories.net</link>
+    <generator>Headrooom by Chipp Studio OÜ</generator>
+    <lastBuildDate>Sat, 18 Jan 2025 06:26:28 GMT</lastBuildDate>
+    <atom:link href="https://headroom.ee/feed/podcast/headroom_stories_rss" rel="self" type="application/rss+xml"/>
+    <copyright><![CDATA[© 2025 Chipp Studio OÜ]]></copyright>
+    <language><![CDATA[en-us]]></language>
+    <itunes:author>Konstantin Tsistjakov</itunes:author>
+    <itunes:summary>Headroom Stories brings you behind the mic with creators, tools, and insights shaping the future of podcasting.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Konstantin Tsistjakov</itunes:name>
+      <itunes:email>konstantin@chippstudio.ee</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Technology"/>
+    <itunes:image href="https://headroom.ee/images/hs_icon.png"/>
+    <item>
+      <title><![CDATA[Headroom Publisher First Version is here]]></title>
+      <description><![CDATA[What’s Next for Headroom Publisher]]></description>
+      <link>https://www.headroom.ee/updates/posts/headroom_beta_launch</link>
+      <guid isPermaLink="false">1e7e8b19-4350-4e76-8f08-f6ec5246f0ff</guid>
+      <pubDate>Sun, 12 Jan 2025 17:23:36 GMT</pubDate>
+      <enclosure url="https://traffic.libsyn.com/appstories/AppStories_regular_Episode_418_WK02.mp3" length="21242059" type="audio/mpeg"/>
+      <content:encoded><![CDATA[
+      First Beta: Headroom Podcast Studio
+
+Hey Podcasters! 🎧
+
+We’re thrilled to announce the first beta release of Headroom: Podcast Publisher – a macOS-native app designed to simplify, streamline, and supercharge your podcast publishing workflow. Whether you’re a seasoned creator or just starting out, Headroom helps you prepare, transcribe, edit, and publish episodes with ease—all in one place.
+
+Effortless Podcast Episode Creation & Publishing
+
+Headroom is a powerful yet easy-to-use macOS application designed for podcasters who want a streamlined workflow from audio preparation to episode publication. Whether you’re an independent creator or managing multiple podcasts, Headroom simplifies the process with AI-driven automation, transcription, and direct export to hosting platforms.
+
+From importing your audio to generating metadata, structuring chapters, and exporting in multiple formats, Headroom takes care of everything—so you can focus on content.
+
+🚀 Features at a Glance:
+
+🎙 Episode Preparation
+
+Import audio files from any recording or editing application
+Convert files into podcast-ready formats (MP3, MP4/AAC)
+Add metadata, including title, description, and show notes
+AI-powered Headroom Assistant generates descriptions, summaries, and structured show notes
+✍️ Automated & Manual Transcription
+
+High-accuracy AI transcription for seamless editing
+Identify and edit timestamps for better accessibility
+Generate subtitles in multiple formats: SRT, VTT, TXT, JSON
+Remove filler words and redundant segments with a single click
+🎛 Comprehensive Metadata & Chapter Management
+
+Set episode numbers, season numbers, and explicit content tags
+Automatically insert time codes into show notes
+Generate structured chapter markers with timestamps
+Organize episode metadata and embed ID3 tags
+📤 Flexible Export & Publishing
+
+Export podcast-ready audio with bitrate, sample rate, loudness normalization settings
+Generate episode files in Markdown, HTML, JSON, TXT, RSS Snippet
+Export structured transcriptions for web, video, and captions
+One-click upload to your preferred podcast hosting service
+🤖 AI-Powered Podcast Assistant
+
+Transcription-Based AI Generation: Create episode titles, descriptions, and show notes automatically
+Chapter Suggestions: AI-generated chapter markers for better episode navigation
+Engagement Optimization: Improve clarity, conciseness, and searchability of titles and descriptions
+Custom AI Prompts: Set personalized AI responses for enhanced automation
+🖥 Intuitive macOS-Native Interface
+
+Welcome View for quick access to recent episodes and templates
+Episode Window with waveform visualization and playback controls
+Sidebar Navigation for seamless switching between metadata, chapters, transcription, and export
+Customizable Player Controls with forward/backward options
+🛠 Additional Tools & Settings
+
+Episode Checklist & Publishing Status (Not Ready, Ready, Published)
+Service Management for selecting and managing podcast hosting platforms
+
+]]></content:encoded>
+      <itunes:author>Konstantin Tsistjakov</itunes:author>
+      <itunes:subtitle>Headroom Publisher First Version is here</itunes:subtitle>
+      <itunes:summary>Headroom Publisher First Version is here</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:28:46</itunes:duration>
+      <itunes:image href="https://cdn.macstories.net/appstories-1628212459872.png"/>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>418</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    
+  </channel>
+</rss>
