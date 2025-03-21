@@ -2,7 +2,7 @@
   <channel>
     <title><![CDATA[Headroom Stories]]></title>
     <description><![CDATA[Headroom Stories brings you behind the mic with creators, tools, and insights shaping the future of podcasting.]]></description>
-    <link>https://appstories.net</link>
+    <link>https://headroom.ee</link>
     <generator>Headrooom by Chipp Studio OÜ</generator>
     <lastBuildDate>Sat, 18 Jan 2025 06:26:28 GMT</lastBuildDate>
     <atom:link href="https://headroom.ee/feed/podcast/headroom_stories_rss" rel="self" type="application/rss+xml"/>
@@ -86,7 +86,7 @@ Service Management for selecting and managing podcast hosting platforms
       <itunes:summary>Headroom Publisher First Version is here</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
       <itunes:duration>00:28:46</itunes:duration>
-      <itunes:image href="https://cdn.macstories.net/appstories-1628212459872.png"/>
+      <itunes:image href="https://headroom.ee/images/hs_icon.png"/>
       <itunes:season>1</itunes:season>
       <itunes:episode>418</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
