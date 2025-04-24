@@ -1,0 +1,171 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+<!doctype html>
+<html>
+
+{% include head.html %}
+{% include navbar.html %}
+
+<body class="min-h-screen flex flex-col">
+  <div class="grow pb-24">
+    <div class="container mx-auto">
+      <div class="pt-16 text-center">
+        <div class="grid place-items-center text-center">
+          <div class="max-w-3xl space-y-3 px-2 text-center">
+
+            <div class="grid place-items-center text-center">
+              <img class="max-h-48 object-scale-down"
+                src="{{ site.baseurl | relative_url }}/images/headroom_header_pro_icon.png">
+            </div>
+
+            <div class="text-text-primary text-4xl md:text-4xl font-black text-center pt-16">
+              Headroom PRO
+            </div>
+            <div class="text-center">
+              <div class="text-text-secondary text-lg md:text-lg font-semibold max-w-xl pt-6">
+                We believe great software is worth paying for. Help support further development. To unlock the full
+                potential of Headroom and improve productivity when shipping apps, you need to subscribe or purchase
+                Headroom Pro.
+              </div>
+            </div>
+
+            <div class="flex gap-6 justify-center pt-8">
+              <!-- Monthly -->
+              <div class="rounded-2xl border border-gray-200 bg-gray-50 p-6 w-64">
+                <div class="text-gray-700 font-semibold text-lg mb-2">Monthly Subscription</div>
+                <div class="text-indigo-900 font-bold text-3xl">€14.99</div>
+              </div>
+            
+              <!-- Yearly -->
+              <div class="rounded-2xl border border-gray-200 bg-gray-50 p-6 w-64">
+                <div class="text-gray-700 font-semibold text-lg mb-2">Yearly Subscription</div>
+                <div class="text-indigo-900 font-bold text-3xl">€139.99</div>
+              </div>
+            </div>
+
+            <div class="text-text-primary text-3xl md:text-4xl font-bold text-center pt-16">
+              What's Included?
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid place-items-center pt-6 pb-24">
+        <div class="rounded-2xl border border-gray-200 overflow-hidden shadow-sm">
+          <table class="min-w-full bg-white">
+            <thead class="border-b border-gray-200 bg-gray-50">
+              <tr>
+                <th class="text-left px-6 py-4 font-bold text-lg text-slate-900 w-lg">Feature</th>
+                <th class="text-center px-6 py-4 font-bold text-lg text-slate-900">FREE</th>
+                <th class="text-center px-6 py-4 font-bold text-lg text-slate-900">PRO</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+              <tr class="divide-x">
+                <td class="px-6 py-4 text-sm font-bold text-slate-800">Podcast Templates</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">1 Template</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">Unlimited</td>
+              </tr>
+              <tr class="divide-x">
+                <td class="px-6 py-4 text-sm font-bold text-slate-800">Show Notes Templates</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">1 Template</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">Unlimited</td>
+              </tr>
+              <tr class="divide-x">
+                <td class="px-6 py-4 text-sm font-bold text-slate-800">Integrations</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">1 Integration</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">Unlimited</td>
+              </tr>
+              <tr class="divide-x">
+                <td class="px-6 py-4 text-sm font-bold text-slate-800">Headroom Assistant: Transcription</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">❌</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">✅</td>
+              </tr>
+              <tr class="divide-x">
+                <td class="px-6 py-4 text-sm font-bold text-slate-800">Headroom Assistant: Episode</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">❌</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">✅</td>
+              </tr>
+              <tr class="divide-x">
+                <td class="px-6 py-4 text-sm font-bold text-slate-800">Headroom Assistant: Chapters</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">❌</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">✅</td>
+              </tr>
+              <tr class="divide-x">
+                <td class="px-6 py-4 text-sm font-bold text-slate-800">Headroom Assistant: Full Assistant</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">❌</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">✅</td>
+              </tr>
+              <tr class="divide-x">
+                <td class="px-6 py-4 text-sm font-bold text-slate-800">Export: Audio</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">Source<br>MP3(limited)</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">Source<br>MP3, MP4</td>
+              </tr>
+              <tr class="divide-x">
+                <td class="px-6 py-4 text-sm font-bold text-slate-800">Export: Show Notes</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">Plain Text</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">HTML, Markdown<br>Plain Text</td>
+              </tr>
+              <tr class="divide-x">
+                <td class="px-6 py-4 text-sm font-bold text-slate-800">Export: Transcription</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">SRT, Plain Text</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">SRT, VTT<br>Markdown, JSO<br>Plain Text, HTML</td>
+              </tr>
+              <tr class="divide-x">
+                <td class="px-6 py-4 text-sm font-bold text-slate-800">Export: Full Metadata</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">HTML</td>
+                <td class="px-6 py-4 text-center text-sm text-slate-500">JSON, HTML<br>XML(RSS)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- Full width wrapper -->
+        <div class="w-full max-w-3xl pt-4">
+          <div class="text-left text-sm text-indigo-800 font-semibold">
+            + Guaranteed access to all future features.
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-2xl mx-auto px-4 py-12">
+        <h2 class="text-2xl font-bold text-gray-900 mb-8">Frequently Asked Questions</h2>
+      
+        <div class="space-y-4">
+          <div class="border border-gray-200 rounded-xl bg-white p-5">
+            <h3 class="font-semibold text-gray-800 text-lg mb-2">What happens after I subscribe?</h3>
+            <p class="text-gray-600 text-sm">
+              You get instant access to all pro features. Your subscription will renew automatically based on the plan you selected.
+            </p>
+          </div>
+      
+          <div class="border border-gray-200 rounded-xl bg-white p-5">
+            <h3 class="font-semibold text-gray-800 text-lg mb-2">Can I cancel anytime?</h3>
+            <p class="text-gray-600 text-sm">
+              Yes, you can cancel your subscription at any time from your account settings. Your access will remain until the current billing period ends.
+            </p>
+          </div>
+      
+          <div class="border border-gray-200 rounded-xl bg-white p-5">
+            <h3 class="font-semibold text-gray-800 text-lg mb-2">Is there a free trial?</h3>
+            <p class="text-gray-600 text-sm">
+              Yes! When you choose the Yearly Subscription, you get 1 week free before you’re charged. You can cancel anytime during the trial and you won’t be billed.
+            </p>
+          </div>
+
+          <div class="border border-gray-200 rounded-xl bg-white p-5">
+            <h3 class="font-semibold text-gray-800 text-lg mb-2">Why is the price different in my country?</h3>
+            <p class="text-gray-600 text-sm">
+              Prices on the App Store are set in Euros, and Apple automatically adjusts the final amount based on your local currency, taxes, and regional pricing policies. We don’t manually set prices for each country.
+To see the exact price in your region, please check Headroom’s page on the App Store.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include social.html %}
+  {% include footer.html %}
+</body>
+
+</html>
