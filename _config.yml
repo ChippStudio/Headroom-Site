@@ -5,7 +5,7 @@ page_title: 'Headroom: Podcasting Toolkit'
 ios_app_id: 
 ios_app_country: us
 
-# presskit_download_link: https://headroompublic.ams3.digitaloceanspaces.com/Headroom_PressKit.zip
+presskit_download_link: https://headroompublic.ams3.digitaloceanspaces.com/Headroom_PressKit.zip
 
 app_icon: images/icon.png
 app_name: 'Headroom'
