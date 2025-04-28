@@ -2,7 +2,8 @@
 	<div class="container mx-auto flex px-5 pt-5 items-center">
 		<div>
 			{% if page.url != '/' %}
-			<a href="/" target="_self"><img class="w-12 h-12" src="{{ site.app_icon | relative_url }}"></a>
+			<a href="/" target="_self"><img class="w-12 h-12" src="{{ site.app_icon | relative_url }}">
+			</a>
 			{% else %}
 			<img class="w-12 h-12" src="{{ site.app_icon | relative_url }}">
 			{% endif %}
@@ -10,17 +11,45 @@
 		<p class="font-semibold invisible md:visible">{{ site.app_name }}</p>
 
 		<div class="grow"></div>
-		<div class="snap-x">
-			<div class="flex mx-auto space-x-4">
-				{% for page in site.pages %}
-				{% if page.include_in_header == true %}
-				<a class="hover:bg-slate-100 px-3 py-1 rounded-md font-semibold" href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
-				{% endif %}
-				{% endfor %}
-				{% if site.presskit_download_link %}
-				<a class="hover:bg-slate-100 px-3 py-1 rounded-md font-semibold" href="{{ site.presskit_download_link }}">Press Kit</a>
-				{% endif %}
-			</div>
+
+		<!-- Hamburger Button (mobile only) -->
+		<button id="menu-button" class="md:hidden p-2" type="button">
+			<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+			</svg>
+		</button>
+
+		<!-- Regular Navigation (desktop only) -->
+		<div class="hidden md:flex space-x-4">
+			{% for page in site.pages %}
+			{% if page.include_in_header == true %}
+			<a class="hover:bg-slate-100 px-3 py-1 rounded-md font-semibold" href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
+			{% endif %}
+			{% endfor %}
+			{% if site.presskit_download_link %}
+			<a class="hover:bg-slate-100 px-3 py-1 rounded-md font-semibold" href="{{ site.presskit_download_link }}">Press Kit</a>
+			{% endif %}
 		</div>
 	</div>
+
+	<!-- Mobile Dropdown Menu -->
+	<div id="mobile-menu" class="hidden flex-col space-y-2 px-5 pb-4 pt-2 bg-gray-50 transition-all duration-300 ease-in-out transform md:hidden">
+		{% for page in site.pages %}
+		{% if page.include_in_header == true %}
+		<a class="hover:bg-slate-100 px-3 py-2 rounded-md font-semibold block" href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
+		{% endif %}
+		{% endfor %}
+		{% if site.presskit_download_link %}
+		<a class="hover:bg-slate-100 px-3 py-2 rounded-md font-semibold block" href="{{ site.presskit_download_link }}">Press Kit</a>
+		{% endif %}
+	</div>
 </header>
+
+<script>
+	const menuButton = document.getElementById('menu-button');
+	const mobileMenu = document.getElementById('mobile-menu');
+
+	menuButton.addEventListener('click', function () {
+		mobileMenu.classList.toggle('hidden');
+	});
+</script>
