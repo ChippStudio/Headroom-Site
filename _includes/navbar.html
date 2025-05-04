@@ -1,6 +1,6 @@
-<header>
+<header id="site-header" class="sticky top-0 z-50 bg-white transition-shadow">
 	<div class="container mx-auto flex px-5 pt-5 items-center">
-		<div>
+		<div class="p-2">
 			{% if page.url != '/' %}
 			<a href="/" target="_self"><img class="w-12 h-12" src="{{ site.app_icon | relative_url }}">
 			</a>
@@ -51,5 +51,15 @@
 
 	menuButton.addEventListener('click', function () {
 		mobileMenu.classList.toggle('hidden');
+	});
+
+	const header = document.getElementById('site-header');
+
+	window.addEventListener('scroll', () => {
+		if (window.scrollY > 0) {
+			header.classList.add('shadow-md');
+		} else {
+			header.classList.remove('shadow-md');
+		}
 	});
 </script>
