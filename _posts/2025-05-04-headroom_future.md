@@ -10,7 +10,9 @@ keywords: podcast editing mac, AI podcast tool, podcast publishing app, macOS po
 
 Today is a big day for us—we’re proud to share that **Headroom: Podcasting Toolkit is now available on the Mac App Store**. This moment marks the end of a long journey from idea to launch, from sketches on a whiteboard to a fully native macOS app tailored for modern podcast production.
 
-But more than anything, this is the beginning of what’s next.
+[Headroom Workflow: Easy way to prepare episode]({% post_url 2025-04-10-headroom_workflow %})
+
+**But more than anything, this is the beginning of what’s next.**
 
 Headroom is built for creators who value quality, speed, and control. It helps podcasters prepare, optimize, and publish episodes with the help of AI tools like transcription, show notes generation, and export-ready formatting. It turns your audio into a complete podcast episode—metadata, chapters, and all.
 
