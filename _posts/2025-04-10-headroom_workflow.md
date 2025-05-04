@@ -10,6 +10,7 @@ keywords: Headroom Podcast Studio, podcast publishing app, macOS podcast app, po
 
 Headroom Publisher is a tool designed to provide final and fine polishing to your podcast episodes with minimal effort on your part. Our goal is to create a tool where you can upload the audio of your show in any format and, with minimal actions, achieve a final result that is ready to publish.
 
+{% youtube 7Q7QztW_WLk %}
 Let's take more details tour through the Headroom
 
 #### **How to Go From Raw Audio to Published Podcast in Minutes — With Headroom**
