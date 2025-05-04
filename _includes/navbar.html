@@ -13,6 +13,7 @@
 		<div class="grow"></div>
 
 		<!-- Hamburger Button (mobile only) -->
+		<!-- <a class="hover:bg-indigo-900 bg-indigo-800 text-indigo-50 px-3 py-2 rounded-md font-semibold md:hidden" href="https://apps.apple.com/app/id6741365157">Download</a> -->
 		<button id="menu-button" class="md:hidden p-2" type="button">
 			<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
@@ -20,7 +21,8 @@
 		</button>
 
 		<!-- Regular Navigation (desktop only) -->
-		<div class="hidden md:flex space-x-4">
+		<div class="hidden md:flex space-x-4 items-center">
+			<a class="hover:bg-indigo-900 bg-indigo-800 text-indigo-50 px-3 py-1 rounded-md font-bold" href="https://apps.apple.com/app/id6741365157">Download</a>
 			{% for page in site.pages %}
 			{% if page.include_in_header == true %}
 			<a class="hover:bg-slate-100 px-3 py-1 rounded-md font-semibold" href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>

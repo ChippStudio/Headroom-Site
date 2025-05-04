@@ -23,6 +23,14 @@
             </a>
             {% endif %}
 
+            {% if site.youtube_username %}
+            <a href="https://www.youtube.com/@{{ site.youtube_username }}">
+                <span class="fa-stack fa-1x hover:text-slate-600">
+                    <i class="fab fa-youtube fa-stack-1x"></i>
+                </span>
+            </a>
+            {% endif %}
+
             {% if site.mastodon_link %}
             <a href="https://{{ site.mastodon_link }}">
                 Mastadon
@@ -48,6 +56,8 @@
                 GitHub
             </a>
             {% endif %}
+
+            
 
             <!-- {% if site.email_address %}
             <a href="mailto:{{ site.email_address }}">
