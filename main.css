@@ -1,4 +1,4 @@
-/*! tailwindcss v4.1.5 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v4.1.6 | MIT License | https://tailwindcss.com */
 @layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
@@ -11,6 +11,7 @@
     --color-sky-700: oklch(0.5 0.134 242.749);
     --color-sky-800: oklch(0.443 0.11 240.79);
     --color-indigo-50: oklch(0.962 0.018 272.314);
+    --color-indigo-700: oklch(0.457 0.24 277.023);
     --color-indigo-800: oklch(0.398 0.195 277.366);
     --color-indigo-900: oklch(0.359 0.144 278.697);
     --color-slate-50: oklch(0.984 0.003 247.858);
@@ -756,6 +757,9 @@
   }
   .text-indigo-50 {
     color: var(--color-indigo-50);
+  }
+  .text-indigo-700 {
+    color: var(--color-indigo-700);
   }
   .text-indigo-800 {
     color: var(--color-indigo-800);
