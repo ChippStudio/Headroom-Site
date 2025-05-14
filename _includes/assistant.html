@@ -13,59 +13,95 @@
             All of this—instantly, with just one click
         </div>
 
-        <div x-data="{ selectedTab: 'transcription' }">
-
-            <!-- Top Image -->
-            <div class="flex justify-center items-center">
-                <div>
-                    <img class="object-scale-down pt-5" :src="selectedTab === 'transcription' ? '{{ site.baseurl | relative_url }}/images/assistant_transcription_screenshot.png' :
-                              selectedTab === 'episode' ? '{{ site.baseurl | relative_url }}/images/assistant_episode_screenshot.png' :
-                              '{{ site.baseurl | relative_url }}/images/assistant_chapters_screenshot.png'">
-                </div>
+        <!-- Trancription -->
+        <div class="grid grid-cols-1 md:[grid-template-columns:40%_60%] gap-8 items-center pt-24">
+            <!-- Title (mobile only) -->
+            <div class="block md:hidden order-1 text-2xl font-black text-slate-100 mb-2">
+                Transcription
             </div>
-
-            <!-- Tab Bar -->
-            <div class="flex justify-center pt-24 gap-7">
-                <div @click="selectedTab = 'transcription'" class="text-xl font-black cursor-pointer"
-                    :class="selectedTab === 'transcription' ? 'underline text-sky-600' : 'text-slate-100'">
+        
+            <!-- Image -->
+            <div class="order-2 md:order-2 flex justify-center px-2 md:px-0">
+                <img
+                    class="object-scale-down max-w-full h-auto"
+                    src="{{ site.baseurl | relative_url }}/images/assistant_transcription_screenshot.png"
+                    alt="Headroom transcription feature screenshot"
+                >
+            </div>
+        
+            <!-- Text content: title (desktop) + description -->
+            <div class="order-3 md:order-1">
+                <!-- Title (desktop only) -->
+                <div class="hidden md:block text-2xl font-black text-slate-100 mb-2">
                     Transcription
                 </div>
-                <div @click="selectedTab = 'episode'" class="text-xl font-black cursor-pointer"
-                    :class="selectedTab === 'episode' ? 'underline text-sky-600' : 'text-slate-100'">
+                <!-- Description -->
+                <div class="text-slate-100 text-lg max-w-3xl pt-6 text-left">
+                    Headroom’s AI-driven transcription turns your speech into clear, structured text using the powerful Whisper model. Designed for podcasters, journalists, and content creators, it ensures accuracy and easy editing. Transcriptions are formatted for Apple Podcasts and refined with built-in grammar and spell-check tools. With multilingual support and AI-enhanced precision, converting audio into text is effortless and reliable, making every word count.
+                </div>
+            </div>
+        </div>
+
+        <!-- Episode -->
+        <div class="grid grid-cols-1 md:[grid-template-columns:60%_40%] gap-8 items-center pt-24">
+            <!-- Title (mobile only) -->
+            <div class="block md:hidden order-1 text-2xl font-black text-slate-100 mb-2">
+                Episode
+            </div>
+        
+            <!-- Image (mobile: 2nd, desktop: 1st column) -->
+            <div class="order-2 md:order-1 flex justify-center px-2 md:px-0">
+                <img
+                    class="object-scale-down max-w-full h-auto"
+                    src="{{ site.baseurl | relative_url }}/images/assistant_episode_screenshot.png"
+                    alt="Headroom transcription feature screenshot"
+                >
+            </div>
+        
+            <!-- Text content: title (desktop) + description -->
+            <div class="order-3 md:order-2">
+                <!-- Title (desktop only) -->
+                <div class="hidden md:block text-2xl font-black text-slate-100 mb-2">
                     Episode
                 </div>
-                <div @click="selectedTab = 'chapters'" class="text-xl font-black cursor-pointer"
-                    :class="selectedTab === 'chapters' ? 'underline text-sky-600' : 'text-slate-100'">
+                <!-- Description -->
+                <div class="text-slate-100 text-lg max-w-3xl pt-6 text-left">
+                    Headroom’s AI Assistant instantly creates detailed episode metadata, including titles, descriptions, and show notes tailored to your content. Designed for clarity and discoverability, it refines text for a polished, professional look. The AI ensures seamless formatting for podcast directories, optimizing engagement with minimal effort. Every episode is structured for maximum impact, making it easy to publish and reach your audience
+                </div>
+            </div>
+        </div>
+
+        <!-- chapters -->
+        <div class="grid grid-cols-1 md:[grid-template-columns:40%_60%] gap-8 items-center pt-8 md:pt-24">
+            <!-- Title (mobile only) -->
+            <div class="block md:hidden order-1 text-2xl font-black text-slate-100 mb-2">
+                Chapters
+            </div>
+        
+            <!-- Image -->
+            <div class="order-2 md:order-2 flex justify-center px-2 md:px-0">
+                <img
+                    class="object-scale-down max-w-full h-auto"
+                    src="{{ site.baseurl | relative_url }}/images/assistant_chapters_screenshot.png"
+                    alt="Headroom transcription feature screenshot"
+                >
+            </div>
+        
+            <!-- Text content: title (desktop) + description -->
+            <div class="order-3 md:order-1">
+                <!-- Title (desktop only) -->
+                <div class="hidden md:block text-2xl font-black text-slate-100 mb-2">
                     Chapters
                 </div>
-            </div>
-
-            <!-- Content Section -->
-            <div class="grid place-items-center">
-                <div class="text-slate-100 text-lg max-w-3xl pt-6 text-center">
-
-                    <!-- Transcription Content -->
-                    <div x-show="selectedTab === 'transcription'">
-                        Headroom’s AI-driven transcription turns your speech into clear, structured text using the powerful Whisper model. Designed for podcasters, journalists, and content creators, it ensures accuracy and easy editing. Transcriptions are formatted for Apple Podcasts and refined with built-in grammar and spell-check tools. With multilingual support and AI-enhanced precision, converting audio into text is effortless and reliable, making every word count
-                    </div>
-
-                    <!-- Episode Content -->
-                    <div x-show="selectedTab === 'episode'">
-                        Headroom’s AI Assistant instantly creates detailed episode metadata, including titles, descriptions, and show notes tailored to your content. Designed for clarity and discoverability, it refines text for a polished, professional look. The AI ensures seamless formatting for podcast directories, optimizing engagement with minimal effort. Every episode is structured for maximum impact, making it easy to publish and reach your audience
-                    </div>
-
-                    <!-- Chapters Content -->
-                    <div x-show="selectedTab === 'chapters'">
-                        Headroom’s AI automatically segments your episode into structured chapters, complete with timestamps and concise summaries. Ideal for interviews, long-form content, and education, this feature enhances navigation and listener experience. Chapters keep audiences engaged, improve accessibility, and add a polished touch. With intelligent detection of key moments, every episode is neatly organized and easy to explore
-                    </div>
-
+                <!-- Description -->
+                <div class="text-slate-100 text-lg max-w-3xl pt-6 text-left">
+                    Headroom’s AI automatically segments your episode into structured chapters, complete with timestamps and concise summaries. Ideal for interviews, long-form content, and education, this feature enhances navigation and listener experience. Chapters keep audiences engaged, improve accessibility, and add a polished touch. With intelligent detection of key moments, every episode is neatly organized and easy to explore
                 </div>
             </div>
-
         </div>
     </div>
 
-    <div class="container mx-auto px-2 md:px-16 py-16">
+    <div class="container mx-auto px-2 md:px-16 py-16 pt-24">
         <div class="text-slate-100 font-bold text-4xl">
             Apple Intelligence*<br>Delightful images created just for you
         </div>
