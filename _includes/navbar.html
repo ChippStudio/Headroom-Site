@@ -29,7 +29,7 @@
 			{% endif %}
 			{% endfor %}
 			{% if site.presskit_download_link %}
-			<a class="hover:bg-slate-100 px-3 py-1 rounded-md font-semibold" href="{{ site.presskit_download_link }}">Press Kit</a>
+			<a class="hover:bg-slate-100 px-3 py-1 rounded-md font-semibold" id="press_kit_button" href="{{ site.presskit_download_link }}">Press Kit</a>
 			{% endif %}
 		</div>
 	</div>
@@ -42,7 +42,7 @@
 		{% endif %}
 		{% endfor %}
 		{% if site.presskit_download_link %}
-		<a class="hover:bg-slate-100 px-3 py-2 rounded-md font-semibold block" href="{{ site.presskit_download_link }}">Press Kit</a>
+		<a class="hover:bg-slate-100 px-3 py-2 rounded-md font-semibold block" id="press_kit_button" href="{{ site.presskit_download_link }}">Press Kit</a>
 		{% endif %}
 	</div>
 </header>
