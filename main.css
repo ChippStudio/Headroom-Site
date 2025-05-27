@@ -1,4 +1,4 @@
-/*! tailwindcss v4.1.6 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v4.1.7 | MIT License | https://tailwindcss.com */
 @layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
@@ -297,9 +297,6 @@
   .my-16 {
     margin-block: calc(var(--spacing) * 16);
   }
-  .mt-2 {
-    margin-top: calc(var(--spacing) * 2);
-  }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
@@ -429,26 +426,8 @@
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
   }
-  .cursor-pointer {
-    cursor: pointer;
-  }
-  .\[grid-template-columns\:40\%_60\%\] {
-    grid-template-columns: 40% 60%;
-  }
-  .\[grid-template-columns\:60\%_0\%\] {
-    grid-template-columns: 60% 0%;
-  }
-  .\[grid-template-columns\:60\%_40\%\] {
-    grid-template-columns: 60% 40%;
-  }
-  .\[grid-template-columns\:60\%_60\%\] {
-    grid-template-columns: 60% 60%;
-  }
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-  .grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .flex-col {
     flex-direction: column;
@@ -458,12 +437,6 @@
   }
   .items-center {
     align-items: center;
-  }
-  .items-start {
-    align-items: flex-start;
-  }
-  .justify-between {
-    justify-content: space-between;
   }
   .justify-center {
     justify-content: center;
@@ -476,9 +449,6 @@
   }
   .gap-6 {
     gap: calc(var(--spacing) * 6);
-  }
-  .gap-7 {
-    gap: calc(var(--spacing) * 7);
   }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
@@ -690,9 +660,6 @@
   .pt-16 {
     padding-top: calc(var(--spacing) * 16);
   }
-  .pt-18 {
-    padding-top: calc(var(--spacing) * 18);
-  }
   .pt-24 {
     padding-top: calc(var(--spacing) * 24);
   }
@@ -729,9 +696,6 @@
   .text-left {
     text-align: left;
   }
-  .align-middle {
-    vertical-align: middle;
-  }
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -759,10 +723,6 @@
   .text-sm {
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
-  }
-  .text-xl {
-    font-size: var(--text-xl);
-    line-height: var(--tw-leading, var(--text-xl--line-height));
   }
   .text-xs {
     font-size: var(--text-xs);
@@ -815,9 +775,6 @@
   .text-indigo-900 {
     color: var(--color-indigo-900);
   }
-  .text-sky-600 {
-    color: var(--color-sky-600);
-  }
   .text-slate-50 {
     color: var(--color-slate-50);
   }
@@ -853,9 +810,6 @@
   }
   .text-white {
     color: var(--color-white);
-  }
-  .underline {
-    text-decoration-line: underline;
   }
   .opacity-50 {
     opacity: 50%;
@@ -990,11 +944,6 @@
       max-width: var(--container-5xl);
     }
   }
-  .md\:\[grid-template-columns\:0\%_60\%\] {
-    @media (width >= 48rem) {
-      grid-template-columns: 0% 60%;
-    }
-  }
   .md\:\[grid-template-columns\:40\%_60\%\] {
     @media (width >= 48rem) {
       grid-template-columns: 40% 60%;
@@ -1003,11 +952,6 @@
   .md\:\[grid-template-columns\:60\%_40\%\] {
     @media (width >= 48rem) {
       grid-template-columns: 60% 40%;
-    }
-  }
-  .md\:\[grid-template-columns\:60\%_60\%\] {
-    @media (width >= 48rem) {
-      grid-template-columns: 60% 60%;
     }
   }
   .md\:grid-cols-2 {
@@ -1033,11 +977,6 @@
   .md\:px-16 {
     @media (width >= 48rem) {
       padding-inline: calc(var(--spacing) * 16);
-    }
-  }
-  .md\:pt-0 {
-    @media (width >= 48rem) {
-      padding-top: calc(var(--spacing) * 0);
     }
   }
   .md\:pt-24 {
